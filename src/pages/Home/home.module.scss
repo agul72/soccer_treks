@@ -1,0 +1,44 @@
+.container {
+    padding: 1rem;
+}
+
+.filters {
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.teamWrapper {
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+.teamRow {
+    display: grid;
+    grid-template-columns: 50px 20rem auto;
+    gap: 1rem;
+    text-align: start;
+    align-items: center;
+
+    &:hover {
+        background-color: gray;
+    }
+}
+
+.teamLogo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.input {
+    padding: 0.25rem 0.5rem;
+}
