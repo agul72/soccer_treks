@@ -118,4 +118,4 @@ interface iStadium {
         narrative: "Book your tickets today and experience the excitement of an Atlanta United match at Mercedes-Benz Stadium!",
       },
     },
-  };
+ };
