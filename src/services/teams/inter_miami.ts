@@ -14,7 +14,7 @@ export const InterMiamiCF: iTeam = {
                     name: "DRV PNK Stadium",
                     location: "Fort Lauderdale, Florida",
                     capacity: 18000,
-                    photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DRV_PNK_Stadium.jpg/1200px-DRV_PNK_Stadium.jpg",
+                    photo: "DRV_PNK_Stadium.jpeg",
                     highlights: [
                         "State-of-the-art stadium in Fort Lauderdale",
                         "Designed by world-renowned architect David Beckham",
@@ -41,13 +41,13 @@ export const InterMiamiCF: iTeam = {
                 {
                     name: "South Beach",
                     link: "https://www.miamiandbeaches.com/south-beach",
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/South_Beach_Miami.jpg/1200px-South_Beach_Miami.jpg",
+                    image: "south_beach_florida.jpeg",
                     description: "Iconic beachfront neighborhood in Miami Beach with world-famous restaurants, nightclubs, and shops.",
                 },
                 {
                     name: "Vizcaya Museum and Gardens",
                     link: "https://www.vizcaya.org/",
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Vizcaya_Museum_and_Gardens_Miami_Florida.jpg/1200px-Vizcaya_Museum_and_Gardens_Miami_Florida.jpg",
+                    image: "Villa_Vizcaya.jpeg",
                     description: "Italian Renaissance-style villa and gardens located in Biscayne Bay.",
                 },
             ],

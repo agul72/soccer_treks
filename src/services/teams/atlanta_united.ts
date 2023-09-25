@@ -40,7 +40,7 @@ export const AtlantaUnited: iTeam = {
                 {
                     name: "The Georgia Aquarium",
                     link: "https://www.georgiaaquarium.org/",
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Georgia_Aquarium_Atlanta_Georgia_USA_2023-09-23.jpg/1200px-Georgia_Aquarium_Atlanta_Georgia_USA_2023-09-23.jpg",
+                    image: "georgia-aquarium.jpeg",
                     description: "The world's largest aquarium, home to over 100,000 animals.",
                 },
             ],
