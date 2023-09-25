@@ -18,7 +18,9 @@
 
 .teamWrapper {
     border: 1px solid gray;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
 .teamRow {
@@ -27,9 +29,11 @@
     gap: 1rem;
     text-align: start;
     align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 
     &:hover {
-        background-color: gray;
+        background-color: lightgrey;
     }
 }
 

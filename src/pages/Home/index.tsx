@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { teams, iTeam, conferences } from '../../services/mock';
+import { iTeam } from '../../services/teams/iTeam';
+import { teams, conferences } from '../../services/teams';
 
 import s from './home.module.scss';
 import { Link } from 'react-router-dom';
@@ -21,18 +22,15 @@ function Home() {
         }
 
         if (filterCity.length) {
-            // console.log("filterCity", filterCity);
             result = result.filter((team: iTeam) =>
                 team.city.toLowerCase().includes(filterCity.toLowerCase()));
         }
-        // console.log(result);
 
         if (filterTeam.length) {
             // console.log("filterTeam", filterTeam);
             result = result.filter((team: iTeam) =>
                 team.team.toLowerCase().includes(filterTeam.toLowerCase()));
         }
-        // console.log(result);
 
         if (JSON.stringify(result) !== JSON.stringify(selectedTeams)) {
             setSelectedTeams(result);
@@ -94,11 +92,11 @@ function Home() {
             <div className={s.teamWrapper}>
                 {selectedTeams.map((team: iTeam) => {
                     return (
-
                         <div
-                            className={s.teamRow} >
-
-                            <div >
+                            className={s.teamRow}
+                            key={team.team}
+                        >
+                            <div>
                                 <img src={'/src/assets/images/logos/' + team.logo}
                                     alt='logo' className={s.teamLogo} />
                             </div>
@@ -106,13 +104,10 @@ function Home() {
                             <Link
                                 to="/team"
                                 state={team}
-                                key={team.team}
                             >
                                 More details
                             </Link>
                         </div>
-
-
                     )
                 })}
 
