@@ -5,7 +5,7 @@ export const InterMiamiCF: iTeam = {
     city: "Miami",
     conference: "Eastern",
     founded: 2018,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Inter_Miami_CF_logo.svg/1200px-Inter_Miami_CF_logo.svg.png",
+    logo: "Inter_Miami_CF_logo.svg.png",
     link: "https://www.intermiamicf.com/",
     aida: {
         awareness: {
