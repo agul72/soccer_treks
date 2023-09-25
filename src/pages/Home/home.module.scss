@@ -23,9 +23,14 @@
     border-radius: 1rem;
 }
 
+.title {
+    font-weight: bold;
+    background-color: lightblue;
+}
+
 .teamRow {
     display: grid;
-    grid-template-columns: 50px 20rem auto;
+    grid-template-columns: 50px 20rem 10rem auto;
     gap: 1rem;
     text-align: start;
     align-items: center;

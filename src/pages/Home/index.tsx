@@ -90,6 +90,11 @@ function Home() {
             </div>
 
             <div className={s.teamWrapper}>
+                <div className={[s.teamRow, s.title].join(" ")}>
+                    <div></div>
+                    <div>Team</div>
+                    <div>Conference</div>
+                </div>
                 {selectedTeams.map((team: iTeam) => {
                     return (
                         <div
@@ -101,6 +106,7 @@ function Home() {
                                     alt='logo' className={s.teamLogo} />
                             </div>
                             <div>{team.team}</div>
+                            <div>{team.conference}</div>
                             <Link
                                 to="/team"
                                 state={team}
