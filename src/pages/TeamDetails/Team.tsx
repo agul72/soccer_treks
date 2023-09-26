@@ -11,9 +11,9 @@ function Team({ team }: Props): JSX.Element {
         <div>
             <h1>{team.team}</h1>
             <div className={s.place}>
-                <div >
+                <div className={s.logoWrapper}>
                     <img src={'/src/assets/images/logos/' + team.logo}
-                        alt='logo' />
+                        alt='logo' className={s.image}/>
                 </div>
                 <div>
                     <div>City: {team.city}</div>

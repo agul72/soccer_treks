@@ -5,7 +5,7 @@ export const StLouisCitySC: iTeam = {
     city: "St. Louis",
     conference: "Western",
     founded: 2020,
-    logo: "St._Louis_City_SC_logo.png",
+    logo: "St_Louis_City_SC_logo.png",
     link: "https://www.stlcitysc.com/",
     aida: {
         awareness: {
