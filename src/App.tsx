@@ -10,7 +10,7 @@ import { useTheme } from './hooks/useTheme';
 import Home from './pages/Home';
 import About from './pages/About';
 import Calculator from './pages/Calculator';
-import Team from './pages/Team';
+import TeamDetails from './pages/TeamDetails';
 
 function App(): JSX.Element {
 
@@ -35,7 +35,7 @@ function App(): JSX.Element {
         setDefaultTheme={setDefaultThemeBtnClickHandler} />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/team' element={<Team />} />
+        <Route path='/team' element={<TeamDetails />} />
         <Route path='/calculator' element={<Calculator />} />
         <Route path='/about' element={<About />} />
       </Routes>

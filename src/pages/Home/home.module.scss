@@ -23,9 +23,12 @@
     border-radius: 1rem;
 }
 
-.title {
+.title {    
+    display: grid;
+    grid-template-columns: calc(50px + 20rem) 10rem ;
     font-weight: bold;
     background-color: lightblue;
+    padding: 0.5rem 0;
 }
 
 .teamRow {

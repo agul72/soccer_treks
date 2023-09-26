@@ -1,0 +1,27 @@
+.place {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    // text-align: left;
+}
+
+.container {
+    padding: 1rem;
+    text-align: left;
+}
+
+.actionWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

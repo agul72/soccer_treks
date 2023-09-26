@@ -47,12 +47,15 @@ export const StLouisCitySC: iTeam = {
             ],
         },
         desire: {
-            howToGetToStadium: {
-                "St. Louis Lambert International Airport": [
-                    "Take the MetroLink train from the airport station to the Union Station stop. From there, it's a short walk to City Foundry STL.",
-                    "You can also take a taxi or Uber from the airport to the stadium.",
-                ],
-            },
+            howToGetToStadium: [
+                {
+                    route: "St. Louis Lambert International Airport",
+                    ways: [
+                        "Take the MetroLink train from the airport station to the Union Station stop. From there, it's a short walk to City Foundry STL.",
+                        "You can also take a taxi or Uber from the airport to the stadium.",
+                    ],
+                }
+            ],
         },
         action: {
             scheduleLink: "https://www.stlcitysc.com/schedule",

@@ -90,8 +90,7 @@ function Home() {
             </div>
 
             <div className={s.teamWrapper}>
-                <div className={[s.teamRow, s.title].join(" ")}>
-                    <div></div>
+                <div className={s.title}>
                     <div>Team</div>
                     <div>Conference</div>
                 </div>

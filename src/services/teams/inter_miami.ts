@@ -53,16 +53,22 @@ export const InterMiamiCF: iTeam = {
             ],
         },
         desire: {
-            howToGetToStadium: {
-                "Fort Lauderdale-Hollywood International Airport": [
-                    "Take the Tri-Rail train from the airport station to the Cypress Creek station. From there, it's a short walk to DRV PNK Stadium.",
-                    "You can also take a taxi or Uber from the airport to the stadium.",
-                ],
-                "Miami International Airport": [
-                    "Take the Metrorail train from the airport station to the Dr. Martin Luther King Jr. Boulevard station. From there, it's a short walk to DRV PNK Stadium.",
-                    "You can also take a taxi or Uber from the airport to the stadium.",
-                ],
-            },
+            howToGetToStadium: [
+                {
+                    route: "Fort Lauderdale-Hollywood International Airport", 
+                    ways: [
+                        "Take the Tri-Rail train from the airport station to the Cypress Creek station. From there, it's a short walk to DRV PNK Stadium.",
+                        "You can also take a taxi or Uber from the airport to the stadium.",
+                    ]
+                },
+                {
+                    route: "Miami International Airport", 
+                    ways: [
+                        "Take the Metrorail train from the airport station to the Dr. Martin Luther King Jr. Boulevard station. From there, it's a short walk to DRV PNK Stadium.",
+                        "You can also take a taxi or Uber from the airport to the stadium.",
+                    ],
+                }
+            ],
         },
         action: {
             scheduleLink: "https://www.intermiamicf.com/schedule",

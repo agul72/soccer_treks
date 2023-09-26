@@ -29,6 +29,10 @@ export interface iAction {
     narrative: string;
 }
 
+export interface iRoad {
+    route: string;
+    ways: string[]
+}
 // AIDA Model Interface
 export interface iAIDA {
     awareness: {
@@ -39,9 +43,7 @@ export interface iAIDA {
         highlights: iInterestHighlight[];
     };
     desire: {
-        howToGetToStadium: {
-            [key: string]: string[];
-        };
+        howToGetToStadium: iRoad[];
     };
     action: iAction;
 }

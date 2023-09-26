@@ -46,16 +46,22 @@ export const AtlantaUnited: iTeam = {
             ],
         },
         desire: {
-            howToGetToStadium: {
-                "Hartsfield-Jackson": [
-                    "The MARTA Gold Line train from the airport station to Garnett Station. From there, it's a short walk to Mercedes-Benz Stadium.",
-                    "You can also take a taxi or Uber from the airport to the stadium.",
-                ],
-                "DeKalb-Peachtree": [
-                    "The MARTA Blue Line train from the airport station to Vine City Station. From there, it's a short walk to Mercedes-Benz Stadium.",
-                    "You can also take a taxi or Uber from the airport to the stadium.",
-                ],
-            },
+            howToGetToStadium: [
+                {
+                    route: "Hartsfield-Jackson",
+                    ways: [
+                        "The MARTA Gold Line train from the airport station to Garnett Station. From there, it's a short walk to Mercedes-Benz Stadium.",
+                        "You can also take a taxi or Uber from the airport to the stadium.",
+                    ]
+                },
+                {
+                    route: "DeKalb-Peachtree",
+                    ways: [
+                        "The MARTA Blue Line train from the airport station to Vine City Station. From there, it's a short walk to Mercedes-Benz Stadium.",
+                        "You can also take a taxi or Uber from the airport to the stadium.",
+                    ],
+                }
+            ],
         },
         action: {
             scheduleLink: "https://www.atlutd.com/schedule",
