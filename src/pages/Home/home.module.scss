@@ -1,7 +1,3 @@
-.container {
-    padding: 1rem;
-}
-
 .filters {
     padding: 1rem;
     display: flex;
@@ -16,32 +12,21 @@
     align-items: center;
 }
 
-.teamWrapper {
-    border: 1px solid gray;
-    padding: 1rem 0.5rem;
-    margin: 1rem;
-    border-radius: 1rem;
-}
-
-.title {    
-    display: grid;
-    grid-template-columns: calc(50px + 20rem) 10rem ;
+.title {
     font-weight: bold;
     background-color: lightblue;
     padding: 0.5rem 0;
 }
 
 .teamRow {
-    display: grid;
-    grid-template-columns: 50px 20rem 10rem auto;
+    display: flex;
     gap: 1rem;
-    text-align: start;
     align-items: center;
     padding: 0.5rem;
-    border-radius: 0.5rem;
 
     &:hover {
         background-color: lightgrey;
+        cursor: pointer;
     }
 }
 
@@ -53,4 +38,35 @@
 
 .input {
     padding: 0.25rem 0.5rem;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;  
+    gap: 1rem;     
+    margin: 1rem;
+}
+
+.conferenceTabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    // width: 100vw;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.conferenceBtn {
+    background-color: gray;
+    color: white;
+
+    &.active {
+        background-color: darkgoldenrod;
+    }
+
+    &:hover {
+        background-color: lightgray;
+        color: darkblue;
+    }
 }

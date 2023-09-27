@@ -22,9 +22,6 @@ function Header({ changeTheme, setDefaultTheme }: Props): JSX.Element {
             <div className="menu">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <Link to="/calculator">Book online</Link>
-                <Link to="/calculator">Bloge</Link>
-                <Link to="/calculator">Groups</Link>
             </div>
         </div>
     )
