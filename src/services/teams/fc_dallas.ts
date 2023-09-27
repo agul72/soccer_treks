@@ -1,11 +1,11 @@
 import { iTeam } from "./iTeam";
 
-export const ColoradoRapids: iTeam = {
-    team: "Colorado Rapids",
+export const Dallas_FC: iTeam = {
+    team: "Dallas FC",
     city: "Commerce City, Colorado",
     conference: "Western",
     founded: 1995,
-    logo: "Colorado_Rapids_logo.png",
+    logo: "FC_Dallas_logo.png",
     link: "https://www.coloradorapids.com/",
     aida: {
         awareness: {
