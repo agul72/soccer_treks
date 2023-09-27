@@ -10,7 +10,7 @@ interface Props {
 function Header({ changeTheme, setDefaultTheme }: Props): JSX.Element {
 
     return (
-        <div>
+        <div className="headerContainer">
             <div className="title">
                 <div><h1>Soccer treks</h1></div>
                 <div className="button-container">

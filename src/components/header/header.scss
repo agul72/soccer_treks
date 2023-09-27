@@ -17,5 +17,13 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    margin: 1rem;
+    color: darkblue;
+}
+
+.headerContainer {
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: darkseagreen;
+    
 }

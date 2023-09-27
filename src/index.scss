@@ -11,19 +11,19 @@
   }
 
   html[data-theme='light'] {
-    --text_color: #242424;
-    --background_color: rgba(255, 255, 255, 0.87);
-    --button_color: lightgray;
-    --button_background_color: #242424;
+    --text_color: darkblue;
+    --background_color: whitesmoke;
+    --button_color: whitesmoke;
+    --button_background_color: darkblue;
     --btn_title: "Dark";
     --btn_image: "url('./assets/sun.png')";
     color-scheme: light;
   }
 
   html[data-theme='dark'] {
-    --text_color: rgba(255, 255, 255, 0.87);
-    --background_color: #242424;
-    --button_color: #1a1a1a;
+    --text_color: lightgray;
+    --background_color: rgb(109, 109, 109);
+    --button_color: darkblue;
     --button_background_color: lightgray;
     --btn_title: 'Light';
     --btn_image: "url('./assets/sun.png')";
@@ -55,7 +55,7 @@
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     font-family: inherit;
     cursor: pointer;
 

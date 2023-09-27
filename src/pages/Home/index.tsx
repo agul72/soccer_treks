@@ -102,9 +102,6 @@ function Home() {
             <div className={s.mainContainer}>
 
                 <div >
-                    <div className={s.title}>
-                        <div>Team</div>
-                    </div>
                     {selectedTeams.map((team: iTeam) => {
                         return (
                             <div
