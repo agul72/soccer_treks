@@ -16,17 +16,17 @@
     --button_color: whitesmoke;
     --button_background_color: darkblue;
     --btn_title: "Dark";
-    --btn_image: "url('./assets/sun.png')";
+    --link-color: blue;
     color-scheme: light;
   }
 
   html[data-theme='dark'] {
-    --text_color: lightgray;
+    --text_color: whitesmoke;
     --background_color: rgb(109, 109, 109);
     --button_color: darkblue;
     --button_background_color: lightgray;
     --btn_title: 'Light';
-    --btn_image: "url('./assets/sun.png')";
+    --link-color: darkblue;
     color-scheme: dark;
   }
 
@@ -37,7 +37,7 @@
 
   a {
     font-weight: 500;
-    color: #646cff;
+    color: var(--link-color);
     text-decoration: inherit;
   }
 
@@ -61,7 +61,7 @@
 
     color: var(--button_color);
     background-color: var(--button_background_color);
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
 
 
     :focus,

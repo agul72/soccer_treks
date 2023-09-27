@@ -5,7 +5,7 @@ export const CFMontréal: iTeam = {
     city: "Montreal",
     conference: "Eastern",
     founded: 1992,
-    logo: "CF_Montréal_logo.png",
+    logo: "CF_Montreal_logo.png",
     link: "https://www.cfmontreal.com/",
     aida: {
         awareness: {

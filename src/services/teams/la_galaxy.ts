@@ -5,7 +5,7 @@ export const LAGalaxy: iTeam = {
     city: "Carson, California",
     conference: "Western",
     founded: 1996,
-    logo: "LA_Galaxy_logo.png",
+    logo: "Los_Angeles_Galaxy_logo.png",
     link: "https://www.lagalaxy.com/",
     aida: {
         awareness: {

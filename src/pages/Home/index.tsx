@@ -12,10 +12,10 @@ function Home() {
     const [selectedComference, setSelectedConference] = useState<string>("Eastern");
     const [filterCity, setFilterCity] = useState<string>("");
     const [filterTeam, setFilterTeam] = useState<string>("");
-    const [sortBy, setSortBy] = useState<string>("name");
 
     useEffect(() => {
         let result = teams;
+        teams.sort((a, b): number => a.team < b.team ? -1 : 0);
 
         result = result.filter((team: iTeam) => team.conference === selectedComference);
 
@@ -64,16 +64,6 @@ function Home() {
                             value={filterTeam}
                             onChange={(e) => setFilterTeam(e.target.value)} />
                     </div>
-                </div>
-                <div><h3>Sort by</h3></div>
-                <div>
-                    <select
-                        className={s.input}
-                        value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}>
-                        <option value="name">Name</option>
-                        <option value="city">City</option>
-                    </select>
                 </div>
             </div>
 

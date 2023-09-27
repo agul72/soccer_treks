@@ -5,7 +5,7 @@ export const ChicagoFireFC: iTeam = {
     city: "Chicago",
     conference: "Eastern",
     founded: 1997,
-    logo: "Chicago_Fire_FC_logo.png",
+    logo: "Chicago_Fire_logo.png",
     link: "https://www.chicagofirefc.com/",
     aida: {
         awareness: {

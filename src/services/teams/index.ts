@@ -5,7 +5,7 @@ import { InterMiamiCF } from "./inter_miami";
 import { StLouisCitySC } from "./st_louis";
 import { AustinFC } from "./austin_fc";
 import { ColoradoRapids } from "./colorado_rapids";
-import { LAFC } from "./la_fc";
+import { LAFC } from "./Los_Angeles_FC";
 import { LAGalaxy } from "./la_galaxy";
 import { MinnesotaUnitedFC } from "./minnesota_united_fc";
 import { NashvilleSC } from "./nashville_sc";

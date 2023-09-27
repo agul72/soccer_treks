@@ -5,7 +5,7 @@ export const LAFC: iTeam = {
     city: "Los Angeles, California",
     conference: "Western",
     founded: 2014,
-    logo: "LA_FC_logo.png",
+    logo: "Los_Angeles_FC_logo.png",
     link: "https://www.lafc.com/",
     aida: {
         awareness: {
