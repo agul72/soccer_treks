@@ -14,7 +14,7 @@ export const CFMontréal: iTeam = {
                     name: "Saputo Stadium",
                     location: "Montreal, Quebec",
                     capacity: 19619,
-                    photo: "Saputo_Stadium.jpg",
+                    photo: "montreal_cf.jpg",
                     highlights: [
                         "State-of-the-art soccer-specific stadium in Olympic Park",
                         "Home to CF Montréal",

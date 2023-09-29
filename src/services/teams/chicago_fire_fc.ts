@@ -14,7 +14,7 @@ export const ChicagoFireFC: iTeam = {
                     name: "Soldier Field",
                     location: "Chicago, Illinois",
                     capacity: 61500,
-                    photo: "Soldier_Field.jpg",
+                    photo: "chicago_fire_fc_stadium_1.jpg",
                     highlights: [
                         "Historic stadium in downtown Chicago",
                         "Home to the Chicago Bears (NFL)",
@@ -25,7 +25,7 @@ export const ChicagoFireFC: iTeam = {
                     name: "SeatGeek Stadium",
                     location: "Bridgeview, Illinois",
                     capacity: 20000,
-                    photo: "SeatGeek_Stadium.jpg",
+                    photo: "chicago_fire_fc_stadium_2.jpg",
                     highlights: [
                         "State-of-the-art soccer-specific stadium in the Chicago suburbs",
                         "Home to Chicago Fire FC and the Chicago Red Stars (NWSL)",

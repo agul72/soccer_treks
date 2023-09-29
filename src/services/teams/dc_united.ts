@@ -15,7 +15,7 @@ export const ColumbusCrewSC: iTeam = {
         name: "Lower.com Field",
         location: "Columbus, Ohio",
         capacity: 20371,
-        photo: "Lower.com_Field.jpg",
+        photo: "Lower.com_Field_stadium.jpg",
         highlights: [
           "State-of-the-art soccer-specific stadium in downtown Columbus",
           "Home to Columbus Crew SC",
