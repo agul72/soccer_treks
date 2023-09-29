@@ -14,7 +14,7 @@ export const VancouverWhitecapsFC: iTeam = {
                 name: "BC Place",
                 location: "Vancouver, British Columbia",
                 capacity: 54500,
-                photo: "BC_Place.jpg",
+                photo: "BC_Place_2015_Women's_FIFA_World_Cup.jpg",
                 highlights: [
                     "Iconic stadium with a retractable roof",
                     "Home to the Vancouver Whitecaps FC, the Vancouver BC Lions, and the Vancouver Canadians",

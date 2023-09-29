@@ -14,7 +14,7 @@ export const HoustonDynamoFC: iTeam = {
                 name: "PNC Stadium",
                 location: "Houston, Texas",
                 capacity: 22039,
-                photo: "PNC_Stadium.jpg",
+                photo: "PNC_Stadium_Skyline_View.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Houston",
                     "Home to Houston Dynamo FC and the University of Houston Cougars",

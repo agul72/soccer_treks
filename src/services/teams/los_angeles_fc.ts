@@ -14,7 +14,7 @@ export const LAFC: iTeam = {
                 name: "Banc of California Stadium",
                 location: "Los Angeles, California",
                 capacity: 22000,
-                photo: "Banc_of_California_Stadium.jpg",
+                photo: "LAFC_East_Side_Stadium_interior.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Los Angeles",
                     "Home to LA FC and the USL Championship's Los Angeles Galaxy II",

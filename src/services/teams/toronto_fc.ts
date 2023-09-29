@@ -14,7 +14,7 @@ export const TorontoFC: iTeam = {
                 name: "BMO Field",
                 location: "Toronto, Ontario",
                 capacity: 30000,
-                photo: "BMO_Field.jpg",
+                photo: "Bmo_Field_2016_East_Stand.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Toronto",
                     "Home to Toronto FC and the Canadian national football team",

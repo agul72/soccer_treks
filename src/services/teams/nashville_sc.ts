@@ -14,7 +14,7 @@ export const NashvilleSC: iTeam = {
                 name: "GEODIS Park",
                 location: "Nashville, Tennessee",
                 capacity: 30000,
-                photo: "GEODIS_Park.jpg",
+                photo: "Nashville_SC_vs_Portland_Timbers.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Nashville",
                     "Home to Nashville SC and the USL Championship's Nashville SC II",

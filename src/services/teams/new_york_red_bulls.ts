@@ -14,7 +14,7 @@ export const NewYorkRedBulls: iTeam = {
                 name: "Red Bull Arena",
                 location: "Harrison, New Jersey",
                 capacity: 25000,
-                photo: "Red_Bull_Arena.jpg",
+                photo: "Red_Bull_Arena_Harrison_behind_goal.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Harrison, New Jersey",
                     "Home to the New York Red Bulls and NJ/NY Gotham FC",
