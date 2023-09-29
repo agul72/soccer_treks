@@ -14,7 +14,7 @@ export const StLouisCitySC: iTeam = {
                     name: "CityPark",
                     location: "St. Louis, Missouri",
                     capacity: 22500,
-                    photo: "City_Park,_Saint_Louis.jpeg",
+                    photo: "City_Park_Saint_Louis.jpg",
                     highlights: [
                         "State-of-the-art stadium in the heart of downtown St. Louis",
                         "Sustainable design and construction",
