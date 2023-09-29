@@ -16,7 +16,7 @@ function Highlights({ highlights }: Props): JSX.Element {
                         <div>Image</div>
                         <div>
                             <div><strong>{highlight.name}</strong></div>
-                            <div><a href={highlight.link}>Go to airport site</a></div>
+                            <div><a href={highlight.link}>Go to {highlight.name} site</a></div>
                             <div>{highlight.description}</div>
                         </div>
                     </div>

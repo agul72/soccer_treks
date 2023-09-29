@@ -43,80 +43,86 @@ function Home() {
     }
 
     return (
-        <div>
-            <div className={s.filters}>
-                <div><h3>Filters</h3></div>
-                <div className={s.filter}>
-                    <div>City</div>
-                    <div>
-                        <input
-                            className={s.input}
-                            value={filterCity}
-                            onChange={(e) => setFilterCity(e.target.value)} />
+        <div className={s.mainWrapper}>
+            <div >
+                <div className={s.filters}>
+                    <div><h3>Filters</h3></div>
+                    <div className={s.filter}>
+                        <div>City</div>
+                        <div>
+                            <input
+                                className={s.input}
+                                value={filterCity}
+                                onChange={(e) => setFilterCity(e.target.value)} />
+                        </div>
+                    </div>
+
+                    <div className={s.filter}>
+                        <div>Team</div>
+                        <div>
+                            <input
+                                className={s.input}
+                                value={filterTeam}
+                                onChange={(e) => setFilterTeam(e.target.value)} />
+                        </div>
                     </div>
                 </div>
 
-                <div className={s.filter}>
-                    <div>Team</div>
-                    <div>
-                        <input
-                            className={s.input}
-                            value={filterTeam}
-                            onChange={(e) => setFilterTeam(e.target.value)} />
+                <div className={s.conferenceTabs}>
+
+                    <div >
+                        <button
+                            className={
+                                [
+                                    s.conferenceBtn,
+                                    selectedComference === "Eastern" ? s.active : ""
+                                ].join(" ")}
+                            onClick={() => onSelectConference("Eastern")}>Eastern</button>
+                    </div>
+                    <div >
+                        <button
+                            className={
+                                [
+                                    s.conferenceBtn,
+                                    selectedComference === "Western" ? s.active : ""
+                                ].join(" ")}
+                            onClick={() => onSelectConference("Western")}>Western</button>
                     </div>
                 </div>
-            </div>
 
-            <div className={s.conferenceTabs}>
+                <div className={s.mainContainer}>
 
-                <div >
-                    <button
-                        className={
-                            [
-                                s.conferenceBtn,
-                                selectedComference === "Eastern" ? s.active : ""
-                            ].join(" ")}
-                        onClick={() => onSelectConference("Eastern")}>Eastern</button>
-                </div>
-                <div >
-                    <button
-                        className={
-                            [
-                                s.conferenceBtn,
-                                selectedComference === "Western" ? s.active : ""
-                            ].join(" ")}
-                        onClick={() => onSelectConference("Western")}>Western</button>
-                </div>
-            </div>
+                    <div >
+                        {selectedTeams.map((team: iTeam) => {
+                            return (
+                                <div
+                                    className={s.teamRow}
+                                    key={team.team}
+                                    onClick={() => setSelectedTeam(team)}
+                                >
+                                    <div>
+                                        <img src={'/src/assets/images/logos/' + team.logo}
+                                            alt='logo' className={s.teamLogo} />
+                                    </div>
+                                    <div>{team.team}</div>
 
-            <div className={s.mainContainer}>
-
-                <div >
-                    {selectedTeams.map((team: iTeam) => {
-                        return (
-                            <div
-                                className={s.teamRow}
-                                key={team.team}
-                                onClick={() => setSelectedTeam(team)}
-                            >
-                                <div>
-                                    <img src={'/src/assets/images/logos/' + team.logo}
-                                        alt='logo' className={s.teamLogo} />
                                 </div>
-                                <div>{team.team}</div>
+                            )
+                        })}
 
-                            </div>
-                        )
-                    })}
+                    </div>
 
+                    <div>
+                        <TeamDetails team={selectedTeam} />
+                    </div>
                 </div>
 
-                <div>
-                    <TeamDetails team={selectedTeam} />
+            </div>
+            <div>
+                <div className={s.advertising}>
+                    Your banner may be here
                 </div>
             </div>
-
-
         </div>
     );
 };
