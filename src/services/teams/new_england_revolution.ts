@@ -14,7 +14,7 @@ export const NewEnglandRevolution: iTeam = {
                 name: "Gillette Stadium",
                 location: "Foxborough, Massachusetts",
                 capacity: 65878,
-                photo: "Gillette_Stadium.jpg",
+                photo: "Gillette_Stadium_(Top_View).jpg",
                 highlights: [
                     "State-of-the-art stadium in Foxborough, Massachusetts",
                     "Home to the New England Revolution and the New England Patriots",

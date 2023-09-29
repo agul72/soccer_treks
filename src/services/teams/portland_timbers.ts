@@ -14,7 +14,7 @@ export const PortlandTimbers: iTeam = {
                 name: "Providence Park",
                 location: "Portland, Oregon",
                 capacity: 25218,
-                photo: "Providence_Park.jpg",
+                photo: "Providence_Park_March.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Portland",
                     "Home to the Portland Timbers and the Portland Thorns FC of the NWSL",

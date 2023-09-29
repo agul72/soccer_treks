@@ -14,7 +14,7 @@ export const SanJoseEarthquakes: iTeam = {
                 name: "PayPal Park",
                 location: "San Jose, California",
                 capacity: 18000,
-                photo: "PayPal_Park.jpg",
+                photo: "Avaya_Stadium.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown San Jose",
                     "Home to the San Jose Earthquakes and the San Jose State Spartans",

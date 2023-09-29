@@ -14,7 +14,7 @@ export const SeattleSoundersFC: iTeam = {
                 name: "Lumen Field",
                 location: "Seattle, Washington",
                 capacity: 69000,
-                photo: "Lumen_Field.jpg",
+                photo: "Qwest_Field_North.jpg",
                 highlights: [
                     "State-of-the-art stadium with a retractable roof",
                     "Home to the Seattle Sounders FC, the Seattle Seahawks, and the OL Reign",

@@ -14,7 +14,7 @@ export const PhiladelphiaUnion: iTeam = {
                 name: "Subaru Park",
                 location: "Chester, Pennsylvania",
                 capacity: 18500,
-                photo: "Subaru_Park.jpg",
+                photo: "Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Chester, Pennsylvania",
                     "Home to the Philadelphia Union and the Philadelphia Independence",

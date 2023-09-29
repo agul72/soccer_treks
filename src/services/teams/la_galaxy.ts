@@ -14,7 +14,7 @@ export const LAGalaxy: iTeam = {
                 name: "Dignity Health Sports Park",
                 location: "Carson, California",
                 capacity: 27000,
-                photo: "Dignity_Health_Sports_Park.jpg",
+                photo: "LA_Galaxy_vs_Houston_Dynamo-_Western_Conference_Finals_panorama.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Carson, California",
                     "Home to LA Galaxy and the LA Chargers",

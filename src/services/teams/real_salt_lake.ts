@@ -14,7 +14,7 @@ export const RealSaltLake: iTeam = {
                 name: "Rio Tinto Stadium",
                 location: "Sandy, Utah",
                 capacity: 20213,
-                photo: "Rio_Tinto_Stadium.jpg",
+                photo: "RioTintoEast3.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Sandy, Utah",
                     "Home to Real Salt Lake and the Utah Royals FC of the NWSL",

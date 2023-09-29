@@ -14,7 +14,7 @@ export const MinnesotaUnitedFC: iTeam = {
                 name: "Allianz Field",
                 location: "Saint Paul, Minnesota",
                 capacity: 19400,
-                photo: "Allianz_Field.jpg",
+                photo: "Allianz_Field_-_MNUFC_Minnesota_United_st._Paul_Minnesota_MLS.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Saint Paul, Minnesota",
                     "Home to Minnesota United FC and the USL Championship's Minnesota United FC 2",

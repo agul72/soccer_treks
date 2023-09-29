@@ -14,7 +14,7 @@ export const NYCFC: iTeam = {
                 name: "Yankee Stadium",
                 location: "Bronx, New York",
                 capacity: 54251,
-                photo: "Yankee_Stadium.jpg",
+                photo: "Yankee_Stadium_overhead.jpg",
                 highlights: [
                     "Iconic home ballpark of the New York Yankees",
                     "Also home to NYC FC",

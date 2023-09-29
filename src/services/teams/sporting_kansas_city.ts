@@ -14,7 +14,7 @@ export const SportingKansasCity: iTeam = {
                 name: "Children's Mercy Park",
                 location: "Kansas City, Kansas",
                 capacity: 18467,
-                photo: "Children's_Mercy_Park.jpg",
+                photo: "Children's_Mercy_Park_Aerial.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Kansas City, Kansas",
                     "Home to Sporting Kansas City and the Kansas City Current",
