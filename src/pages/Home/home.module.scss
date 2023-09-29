@@ -31,9 +31,9 @@
 }
 
 .teamLogo {
-    // height: 50px;
+    max-height: 50px;
     width: 50px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .input {
@@ -45,6 +45,11 @@
     grid-template-columns: 1fr 4fr;  
     gap: 1rem;     
     margin: 1rem;
+}
+
+.mainWrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
 }
 
 .conferenceTabs {
@@ -69,4 +74,10 @@
         background-color: lightgray;
         color: darkblue;
     }
+}
+
+.advertising {
+    border-left: 2px solid darkseagreen;
+    height: 100%;
+
 }

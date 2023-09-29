@@ -14,21 +14,31 @@ interface Props {
 }
 
 
-function TeamDetails({team}: Props) {
+function TeamDetails({ team }: Props) {
 
-    
+
 
     if (team) {
         const { awareness, interest, desire, action } = team.aida;
         return (
             <div className={s.container}>
                 <Team team={team} />
-                <Stadiums stadiums={awareness.stadiums} />
-                <Airports airports={awareness.airports} />
-                <Highlights highlights={interest.highlights} />
-                <Roads roads={desire.howToGetToStadium} />
-                <Action action={action}/>    
-            </div>    
+                <div className={s.aidaItem}>
+                    <Stadiums stadiums={awareness.stadiums} />
+                </div>
+                <div className={s.aidaItem}>
+                    <Airports airports={awareness.airports} />
+                </div>
+                <div className={s.aidaItem}>
+                    <Highlights highlights={interest.highlights} />
+                </div>
+                <div className={s.aidaItem}>
+                    <Roads roads={desire.howToGetToStadium} />
+                </div>
+                <div className={s.aidaItem}>
+                    <Action action={action} />
+                </div>
+            </div>
         );
     } else {
         return (
@@ -38,7 +48,7 @@ function TeamDetails({team}: Props) {
         )
     }
 
-    
+
 };
 
 export default TeamDetails;
