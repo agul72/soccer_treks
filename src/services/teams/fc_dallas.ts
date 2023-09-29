@@ -14,7 +14,7 @@ export const Dallas_FC: iTeam = {
                 name: "Dick's Sporting Goods Park",
                 location: "Commerce City, Colorado",
                 capacity: 18061,
-                photo: "Dick's_Sporting_Goods_Park.jpg",
+                photo: "colorado_rapids_stadium_1.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Commerce City, Colorado",
                     "Home to the Colorado Rapids and the USL Championship's Colorado Springs Switchbacks FC",

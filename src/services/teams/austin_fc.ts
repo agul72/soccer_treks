@@ -14,7 +14,7 @@ export const AustinFC: iTeam = {
                 name: "Q2 Stadium",
                 location: "Austin, Texas",
                 capacity: 20500,
-                photo: "Q2_Stadium.jpg",
+                photo: "Austin_FC_Stadium.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in downtown Austin",
                     "Home to Austin FC and the USL Championship's Austin Bold FC",

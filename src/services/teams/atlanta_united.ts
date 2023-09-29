@@ -15,7 +15,7 @@ export const AtlantaUnited: iTeam = {
                     name: "Mercedes-Benz Stadium",
                     location: "Atlanta, Georgia",
                     capacity: 71000,
-                    photo: "Peach_Bowl_Pre-game.jpg",
+                    photo: "atlanta_united_stadium.jpg",
                     highlights: [
                         "State-of-the-art retractable roof",
                         "360-degree LED video board",

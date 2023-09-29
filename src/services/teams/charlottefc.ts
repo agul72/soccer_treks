@@ -14,7 +14,7 @@ export const CharlotteFC: iTeam = {
                 name: "Bank of America Stadium",
                 location: "Charlotte, North Carolina",
                 capacity: 74867,
-                photo: "Bank_of_America_Stadium.jpg",
+                photo: "charlotte_fc.jpg",
                 highlights: [
                     "State-of-the-art stadium in downtown Charlotte",
                     "Home to both the Carolina Panthers (NFL) and Charlotte FC",
