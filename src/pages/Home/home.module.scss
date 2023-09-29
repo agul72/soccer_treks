@@ -49,7 +49,7 @@
 
 .mainWrapper {
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr clamp(100px, 15vw, 300px);
 }
 
 .conferenceTabs {

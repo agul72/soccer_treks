@@ -45,8 +45,30 @@ function Home() {
     return (
         <div className={s.mainWrapper}>
             <div >
+
                 <div className={s.filters}>
-                    <div><h3>Filters</h3></div>
+                    
+                    <div className={s.conferenceTabs}>
+                        <div >
+                            <button
+                                className={
+                                    [
+                                        s.conferenceBtn,
+                                        selectedComference === "Eastern" ? s.active : ""
+                                    ].join(" ")}
+                                onClick={() => onSelectConference("Eastern")}>Eastern</button>
+                        </div>
+                        <div >
+                            <button
+                                className={
+                                    [
+                                        s.conferenceBtn,
+                                        selectedComference === "Western" ? s.active : ""
+                                    ].join(" ")}
+                                onClick={() => onSelectConference("Western")}>Western</button>
+                        </div>
+                    </div>
+                    <div><h3>Filters:</h3></div>
                     <div className={s.filter}>
                         <div>City</div>
                         <div>
@@ -67,31 +89,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-                <div className={s.conferenceTabs}>
-
-                    <div >
-                        <button
-                            className={
-                                [
-                                    s.conferenceBtn,
-                                    selectedComference === "Eastern" ? s.active : ""
-                                ].join(" ")}
-                            onClick={() => onSelectConference("Eastern")}>Eastern</button>
-                    </div>
-                    <div >
-                        <button
-                            className={
-                                [
-                                    s.conferenceBtn,
-                                    selectedComference === "Western" ? s.active : ""
-                                ].join(" ")}
-                            onClick={() => onSelectConference("Western")}>Western</button>
-                    </div>
-                </div>
-
                 <div className={s.mainContainer}>
-
                     <div >
                         {selectedTeams.map((team: iTeam) => {
                             return (
