@@ -35,8 +35,10 @@
     object-fit: fill;
 }
 
-.stadiumImageWrapper {
-    max-height: 250px;
+.plaseImageWrapper {
+    height: 150px;
+    width: auto;
+    // overflow: hidden;
 }
 
 .aidaItem {

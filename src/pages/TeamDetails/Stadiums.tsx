@@ -14,8 +14,9 @@ function Stadiums({ stadiums }: Props): JSX.Element {
                     <div>
                         <div><h4>{stadium.name}</h4></div>
                         <div className={s.place}>
-                            <div className={s.stadiumImageWrapper}>
-                                <img src={'/src/assets/images/stadiums/' + stadium.photo} alt="Photo" className={s.image}/>
+                            <div className={s.plaseImageWrapper}>
+                                <img src={'/src/assets/images/stadiums/' + stadium.photo}
+                                    alt="Photo" className={s.image} />
                             </div>
                             <div>
                                 <div>Location: {stadium.location}</div>

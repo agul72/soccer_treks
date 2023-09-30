@@ -54,7 +54,7 @@ function Home() {
                                 className={
                                     [
                                         s.conferenceBtn,
-                                        selectedComference === "Eastern" ? s.active : ""
+                                        selectedComference === "Eastern" ? s.active : null
                                     ].join(" ")}
                                 onClick={() => onSelectConference("Eastern")}>Eastern</button>
                         </div>
@@ -63,7 +63,7 @@ function Home() {
                                 className={
                                     [
                                         s.conferenceBtn,
-                                        selectedComference === "Western" ? s.active : ""
+                                        selectedComference === "Western" ? s.active : null
                                     ].join(" ")}
                                 onClick={() => onSelectConference("Western")}>Western</button>
                         </div>
@@ -94,7 +94,10 @@ function Home() {
                         {selectedTeams.map((team: iTeam) => {
                             return (
                                 <div
-                                    className={s.teamRow}
+                                    className={[
+                                        s.teamRow,
+                                        selectedTeam === team ? s.active : null
+                                    ].join(" ")}
                                     key={team.team}
                                     onClick={() => setSelectedTeam(team)}
                                 >
