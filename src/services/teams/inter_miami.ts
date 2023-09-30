@@ -14,7 +14,7 @@ export const InterMiamiCF: iTeam = {
                     name: "DRV PNK Stadium",
                     location: "Fort Lauderdale, Florida",
                     capacity: 18000,
-                    photo: "DRV_PNK_Stadium.jpeg",
+                    photo: "DRV_PNK_Stadium.jpg",
                     highlights: [
                         "State-of-the-art stadium in Fort Lauderdale",
                         "Designed by world-renowned architect David Beckham",

@@ -12,16 +12,15 @@ function Header({ changeTheme, setDefaultTheme }: Props): JSX.Element {
     return (
         <div className="headerContainer">
             <div className="title">
-                <div><h1>Soccer treks</h1></div>
+                <div className="mainTitle">Soccertreks</div>
+            <div className="menu">
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+            </div>
                 <div className="button-container">
                     <button className="theme-button" onClick={changeTheme}></button>
                     <button onClick={setDefaultTheme}>Default</button>
                 </div>
-            </div>
-
-            <div className="menu">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
             </div>
         </div>
     )

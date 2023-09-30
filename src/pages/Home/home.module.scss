@@ -4,6 +4,8 @@
     gap: 2rem;
     justify-content: flex-start;
     align-items: center;
+    height: 5vh;
+    border-bottom: 3px darkturquoise double;
 }
 
 .filter {
@@ -54,13 +56,15 @@
 .mainWrapper {
     display: grid;
     grid-template-columns: 1fr clamp(100px, 15vw, 300px);
+    height: 90vh;
+    overflow: hidden;
 }
 
 .conferenceTabs {
     display: flex;
-    justify-content: flex-start;
+    // justify-content: flex-start;
     gap: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
     // width: 100vw;
     font-weight: bold;
     font-size: 1.2rem;
@@ -84,4 +88,11 @@
     border-left: 2px solid darkturquoise;
     height: 100%;
     padding: 0.5em 1em;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.teamsWrapper {
+    height: 80vh;
+    overflow-y: auto;
 }

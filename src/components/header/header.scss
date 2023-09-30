@@ -9,15 +9,22 @@
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
-    padding: 1rem 0.5rem;
+    padding: 0.5em;
 }
 
 .title {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    // justify-content: space-between;
     align-items: center;
-    text-align: left;
-    // color: darkblue;
+    grid-template-columns: auto 1fr auto;
+    gap: 2rem;
+    // text-align: left;
+    // color: darkblue;    
+}
+
+.mainTitle {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .headerContainer {
@@ -25,5 +32,6 @@
     top: 0;
     padding: 1rem;
     background-color: darkturquoise;
+    height: 5vh;
     
 }

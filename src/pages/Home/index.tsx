@@ -45,14 +45,11 @@ function Home() {
     return (
         <div className={s.mainWrapper}>
             <div >
-
-                <div className={s.filters}>
-                    
+                <div className={s.filters}>                    
                     <div className={s.conferenceTabs}>
                         <div >
                             <button
-                                className={
-                                    [
+                                className={                                    [
                                         s.conferenceBtn,
                                         selectedComference === "Eastern" ? s.active : null
                                     ].join(" ")}
@@ -90,7 +87,7 @@ function Home() {
                     </div>
                 </div>
                 <div className={s.mainContainer}>
-                    <div >
+                    <div className={s.teamsWrapper}>
                         {selectedTeams.map((team: iTeam) => {
                             return (
                                 <div
