@@ -12,12 +12,7 @@ import About from './pages/About';
 
 function App(): JSX.Element {
 
-  const { theme, setTheme, getPreferredScheme } = useTheme();
-
-  function setDefaultThemeBtnClickHandler() {
-    const defaultTheme = getPreferredScheme();
-    setTheme(defaultTheme);
-  }
+  const { theme, setTheme } = useTheme();
 
   function changeThemeBtnClickHandler() {
     if (theme === 'dark') {
@@ -29,8 +24,7 @@ function App(): JSX.Element {
 
   return (
     <div id="main">
-      <Header changeTheme={changeThemeBtnClickHandler}
-        setDefaultTheme={setDefaultThemeBtnClickHandler} />
+      <Header changeTheme={changeThemeBtnClickHandler} />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

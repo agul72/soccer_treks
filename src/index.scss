@@ -11,10 +11,13 @@
   }
 
   html[data-theme='light'] {
-    --text_color: darkblue;
-    --background_color: whitesmoke;
+    --text_color: #1a1a1a;
+    --primary-bg_color: whitesmoke;
+    --secondary-bg_color: lightgreen;
     --button_color: whitesmoke;
-    --button_background_color: darkblue;
+    --button_background_color: darkgreen;
+    --theme-btn-img: url("/src/assets/moon.svg");
+    --theme-btn-title: "Switch to dark theme";
     --btn_title: "Dark";
     --link-color: blue;
     color-scheme: light;
@@ -22,9 +25,13 @@
 
   html[data-theme='dark'] {
     --text_color: whitesmoke;
-    --background_color: rgb(109, 109, 109);
-    --button_color: darkblue;
+    --primary-bg_color: #3b3b3b;
+    --secondary-bg_color: darkgreen;
+    --background_color: #1a1a1a;
+    --button_color: #1a1a1a;
     --button_background_color: lightgray;
+    --theme-btn-img: url("/src/assets/sun.svg");
+    --theme-btn-title: "Switch to light theme";
     --btn_title: 'Light';
     --link-color: gold;
     color-scheme: dark;
@@ -58,7 +65,6 @@
     font-weight: 600;
     font-family: inherit;
     cursor: pointer;
-
     color: var(--button_color);
     background-color: var(--button_background_color);
     transition: all 0.3s ease-in;

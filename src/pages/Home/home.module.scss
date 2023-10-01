@@ -5,7 +5,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 5vh;
-    border-bottom: 3px darkturquoise double;
+    border-bottom: 3px var(--secondary-bg_color) double;
 }
 
 .filter {
@@ -32,7 +32,7 @@
     }
 
     &.active {
-        background-color: darkturquoise;
+        background-color: var(--secondary-bg_color);
     }
 }
 
@@ -85,7 +85,7 @@
 }
 
 .advertising {
-    border-left: 2px solid darkturquoise;
+    border-left: 2px solid var(--secondary-bg_color);
     height: 100%;
     padding: 0.5em 1em;
     height: 90vh;

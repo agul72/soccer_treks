@@ -4,10 +4,9 @@ import "./header.scss"
 
 interface Props {
     changeTheme: () => void,
-    setDefaultTheme: () => void
 }
 
-function Header({ changeTheme, setDefaultTheme }: Props): JSX.Element {
+function Header({ changeTheme }: Props): JSX.Element {
 
     return (
         <div className="headerContainer">
@@ -19,7 +18,6 @@ function Header({ changeTheme, setDefaultTheme }: Props): JSX.Element {
             </div>
                 <div className="button-container">
                     <button className="theme-button" onClick={changeTheme}></button>
-                    <button onClick={setDefaultTheme}>Default</button>
                 </div>
             </div>
         </div>

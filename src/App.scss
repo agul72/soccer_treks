@@ -2,17 +2,13 @@
   width: 100%;
   min-height: 100vh;  
   color: var(--text_color);
-  background-color: var(--background_color);
+  background-color: var(--primary-bg_color);
   transition: background-color 0.3s ease;
 }
 
 .theme-button {  
-  background-image: var(--btn_image);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  padding: 0.5rem 1rem;
-  &:after {
-    content: var(--btn_title);
-  }
+  background: no-repeat var(--theme-btn-img) center/contain;
+  height: 2rem;
+  width: 2rem;
+  
 }
