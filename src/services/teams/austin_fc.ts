@@ -36,19 +36,19 @@ export const AustinFC: iTeam = {
                 {
                     name: "Texas State Capitol",
                     link: "https://www.tspb.texas.gov/Capitol.aspx",
-                    image: "Texas_State_Capitol.jpg",
+                    image: "TexasStateCapitol.jpg",
                     description: "Iconic state capitol building in downtown Austin.",
                 },
                 {
                     name: "Zilker Park",
                     link: "https://www.austintexas.gov/department/zilker-park",
-                    image: "Zilker_Park.jpg",
+                    image: "Austin-skyline.jpg",
                     description: "Large urban park with a variety of attractions, including Barton Springs Pool, the Zilker Botanical Garden, and the Umlauf Sculpture Garden.",
                 },
                 {
                     name: "Sixth Street",
                     link: "https://www.visitaustin.org/things-to-do/entertainment/6th-street",
-                    image: "Sixth_Street.jpg",
+                    image: "Sixth_Street_Austin.jpg",
                     description: "Popular entertainment district in downtown Austin, with a variety of bars, clubs, and restaurants.",
                 },
             ],

@@ -42,13 +42,13 @@ export const SeattleSoundersFC: iTeam = {
                 {
                     name: "Pike Place Market",
                     link: "https://www.pikeplacemarket.org/",
-                    image: "Pike_Place_Market.jpg",
+                    image: "Pike_Place_Market_Seattle.jpg",
                     description: "Public market with over 200 vendors selling fresh produce, seafood, flowers, and other goods.",
                 },
                 {
                     name: "Museum of Pop Culture (MoPOP)",
                     link: "https://www.mopop.org/",
-                    image: "Museum_of_Pop_Culture.jpg",
+                    image: "EMPPano11.jpg",
                     description: "Museum dedicated to popular culture, including music, movies, video games, and science fiction.",
                 },
             ],

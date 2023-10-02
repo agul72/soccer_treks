@@ -42,13 +42,13 @@ export const LAGalaxy: iTeam = {
                 {
                     name: "Griffith Observatory",
                     link: "https://www.griffithobservatory.org/",
-                    image: "Griffith_Observatory.jpg",
+                    image: "Griffith_observatory.jpg",
                     description: "Public observatory with exhibits on astronomy and space science, as well as stunning views of the city and Hollywood Sign.",
                 },
                 {
                     name: "Santa Monica Pier",
                     link: "https://www.santamonicapier.org/",
-                    image: "Santa_Monica_Pier.jpg",
+                    image: "Santa_monica_pier_entrance_evening.jpg",
                     description: "Popular tourist destination with amusement park rides, shops, restaurants, and a Ferris wheel with ocean views.",
                 },
             ],

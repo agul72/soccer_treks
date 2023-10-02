@@ -36,19 +36,19 @@ export const PortlandTimbers: iTeam = {
                 {
                     name: "Powell's City of Books",
                     link: "https://www.powells.com/",
-                    image: "Powell's_City_of_Books.jpg",
+                    image: "PowellsBookstore.jpg",
                     description: "World-renowned independent bookstore with over 1 million books in stock.",
                 },
                 {
                     name: "Portland Japanese Garden",
                     link: "https://japanesegarden.org/",
-                    image: "Portland_Japanese_Garden.jpg",
+                    image: "Japanese_Garden.jpg",
                     description: "Authentic Japanese garden with a variety of plants, trees, and waterfalls.",
                 },
                 {
                     name: "Forest Park",
                     link: "https://www.portlandoregon.gov/parks/forest-park/",
-                    image: "Forest_Park.jpg",
+                    image: "Forest_park_wildwood_trail_in_early_summer_P.jpg",
                     description: "5,200-acre urban forest with over 80 miles of hiking trails.",
                 },
             ],

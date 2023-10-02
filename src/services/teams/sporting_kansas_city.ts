@@ -36,19 +36,19 @@ export const SportingKansasCity: iTeam = {
                 {
                     name: "National World War I Museum and Memorial",
                     link: "https://www.theworldwar.org/",
-                    image: "National_World_War_I_Museum_and_Memorial.jpg",
+                    image: "National_World_War_I_Museum_and_Memorial_aerial.jpg",
                     description: "Museum dedicated to the history of World War I, with a variety of exhibits and artifacts.",
                 },
                 {
                     name: "Nelson-Atkins Museum of Art",
                     link: "https://www.nelson-atkins.org/",
-                    image: "Nelson-Atkins_Museum_of_Art.jpg",
+                    image: "Atkins_Museum_of_Art,_Kansas_City.jpg",
                     description: "Art museum with a collection of over 40,000 works of art from around the world.",
                 },
                 {
                     name: "Power & Light District",
                     link: "https://www.powerandlightdistrict.com/",
-                    image: "Power_&_Light_District.jpg",
+                    image: "Pld_pano_cropped.jpg",
                     description: "Entertainment district with a variety of bars, restaurants, and shops.",
                 },
             ],

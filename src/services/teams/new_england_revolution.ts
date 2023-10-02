@@ -40,13 +40,13 @@ export const NewEnglandRevolution: iTeam = {
                 {
                     name: "Freedom Trail",
                     link: "https://www.thefreedomtrail.org/",
-                    image: "Freedom_Trail.jpg",
+                    image: "File_USA-The_Freedom_Trail.jpg",
                     description: "Historic 2.5-mile path through Boston that passes by 16 sites significant to the American Revolution.",
                 },
                 {
                     name: "Fenway Park",
                     link: "https://www.mlb.com/redsox/ballpark/fenway-park",
-                    image: "Fenway_Park.jpg",
+                    image: "Hanscom_participates_in_World_Series_pregame_events.jpg",
                     description: "Iconic home ballpark of the Boston Red Sox, one of the oldest and most famous Major League Baseball stadiums.",
                 },
             ],

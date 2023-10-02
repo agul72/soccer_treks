@@ -41,7 +41,7 @@ export const InterMiamiCF: iTeam = {
                 {
                     name: "South Beach",
                     link: "https://www.miamiandbeaches.com/south-beach",
-                    image: "south_beach_florida.jpeg",
+                    image: "Ocean_drive_day.jpeg",
                     description: "Iconic beachfront neighborhood in Miami Beach with world-famous restaurants, nightclubs, and shops.",
                 },
                 {

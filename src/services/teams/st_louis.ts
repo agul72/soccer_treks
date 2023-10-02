@@ -35,13 +35,13 @@ export const StLouisCitySC: iTeam = {
                 {
                     name: "Gateway Arch National Park",
                     link: "https://www.nps.gov/jeff/index.htm",
-                    image: "Gateway_Arch.jpg",
+                    image: "Gateway_Arch_edit1.jpg",
                     description: "Iconic monument and national park in downtown St. Louis.",
                 },
                 {
                     name: "City Museum",
                     link: "https://www.citymuseum.org/",
-                    image: "CityMuseum_ElevatorWoman.png",
+                    image: "City_Museum_outdoor_structures.png",
                     description: "Unique indoor/outdoor museum with exhibits and activities for all ages.",
                 },
             ],

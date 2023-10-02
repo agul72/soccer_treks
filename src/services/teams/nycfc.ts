@@ -40,13 +40,13 @@ export const NYCFC: iTeam = {
                 {
                     name: "Statue of Liberty",
                     link: "https://www.nps.gov/stli/index.htm",
-                    image: "Statue_of_Liberty.jpg",
+                    image: "Lady_Liberty_under_a_blue_sky.jpg",
                     description: "Iconic landmark and symbol of freedom located in New York Harbor.",
                 },
                 {
                     name: "Central Park",
                     link: "https://www.centralpark.com/",
-                    image: "Central_Park.jpg",
+                    image: "Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir.jpg",
                     description: "Large urban park in Manhattan that offers a variety of activities and attractions.",
                 },
                 {

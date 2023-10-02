@@ -48,7 +48,7 @@ export const PhiladelphiaUnion: iTeam = {
                 {
                     name: "Philadelphia Museum of Art",
                     link: "https://www.philamuseum.org/",
-                    image: "Philadelphia_Museum_of_Art.jpg",
+                    image: "PhiladelphiaMuseumOfArt.jpg",
                     description: "Art museum with a world-renowned collection of over 240,000 works of art.",
                 },
             ],

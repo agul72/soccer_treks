@@ -36,19 +36,19 @@ export const RealSaltLake: iTeam = {
                 {
                     name: "Temple Square",
                     link: "https://www.churchofjesuschrist.org/temples/salt-lake-temple",
-                    image: "Temple_Square.jpg",
+                    image: "Temple_Square,_Salt_Lake_City.jpg",
                     description: "Headquarters of the Church of Jesus Christ of Latter-day Saints, with a variety of temples, gardens, and other attractions.",
                 },
                 {
                     name: "Park City Mountain Resort",
                     link: "https://www.parkcitymountain.com/",
-                    image: "Park_City_Mountain_Resort.jpg",
+                    image: "Eagle_Race_Arena_at_Park_City_Resort.jpg",
                     description: "World-renowned ski resort located just 30 minutes from Salt Lake City.",
                 },
                 {
                     name: "Great Salt Lake",
                     link: "https://www.visitsaltlake.com/things-to-do/great-salt-lake/",
-                    image: "Great_Salt_Lake.jpg",
+                    image: "Great_Salt_Lake_by_Sentinel.jpg",
                     description: "Largest saltwater lake in the Western Hemisphere, with a variety of recreational activities available.",
                 },
             ],
