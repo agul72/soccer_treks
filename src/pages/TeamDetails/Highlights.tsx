@@ -13,7 +13,9 @@ function Highlights({ highlights }: Props): JSX.Element {
             {highlights.map((highlight: iInterestHighlight, index: number) =>
                 <div key={index}>
                     <div className={s.place}>
-                        <div>Image</div>
+                        <div><img src={'/src/assets/images/places/' + highlight.image}
+                            alt="Photo" className={s.image} />
+                        </div>
                         <div>
                             <div><strong>{highlight.name}</strong></div>
                             <div><a href={highlight.link}>Go to {highlight.name} site</a></div>
