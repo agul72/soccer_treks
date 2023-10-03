@@ -25,13 +25,6 @@ import { CFMontréal } from "./cf_montreal";
 import { CharlotteFC } from "./charlottefc";
 import { ChicagoFireFC } from "./chicago_fire_fc";
 
-
-
-
-export const conferences = [
-    "Western", "Eastern"
-];
-
 export const teams: iTeam[] = [
     AtlantaUnited,
     InterMiamiCF,
