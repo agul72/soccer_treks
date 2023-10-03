@@ -40,19 +40,19 @@ export const NewYorkRedBulls: iTeam = {
                 {
                     name: "Jersey City",
                     link: "https://www.visitnj.org/jersey-city",
-                    image: "Jersey_City.jpg",
+                    image: "Jersey_City_Skyline_sunset.jpg",
                     description: "Vibrant city across the Hudson River from Manhattan, with stunning views of the city skyline.",
                   },
                   {
                     name: "Hoboken",
                     link: "https://www.visitnj.org/hoboken",
-                    image: "Hoboken.jpg",
+                    image: "Hoboken_NJ_photo_D_Ramey_Logan.jpg",
                     description: "Charming city on the Hudson River with a lively downtown area and easy access to Manhattan.",
                   },
                   {
                     name: "Montclair",
                     link: "https://www.visitnj.org/montclair",
-                    image: "Montclair.jpg",
+                    image: "Montclair_overlook.jpg",
                     description: "Upscale suburb of New York City with a vibrant arts and culture scene.",
                   },
             ],

@@ -46,13 +46,13 @@ export const CFMontréal: iTeam = {
                 {
                     name: "Old Montreal",
                     link: "https://www.tourisme-montreal.org/en-ca/places-to-visit/old-montreal",
-                    image: "Old_Montreal.jpg",
+                    image: "Old_Port_of_Montreal.jpg",
                     description: "Historic neighborhood in downtown Montreal with cobblestone streets, charming shops and restaurants, and stunning views of the St. Lawrence River.",
                 },
                 {
                     name: "Mount Royal",
                     link: "https://www.tourisme-montreal.org/en-ca/places-to-visit/mount-royal",
-                    image: "Mount_Royal.jpg",
+                    image: "Mtroyal.jpg",
                     description: "Iconic hill in the heart of Montreal with panoramic views of the city and surrounding area.",
                 },
             ],

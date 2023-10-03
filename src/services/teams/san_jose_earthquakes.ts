@@ -36,13 +36,13 @@ export const SanJoseEarthquakes: iTeam = {
                 {
                     name: "Winchester Mystery House",
                     link: "https://www.winchestermysteryhouse.com/",
-                    image: "Winchester_Mystery_House.jpg",
+                    image: "SWinchester_House.jpg",
                     description: "Mansion built by Sarah Winchester, widow of gun magnate William Wirt Winchester, with over 160 rooms and numerous architectural oddities.",
                 },
                 {
                     name: "NASA Ames Research Center",
                     link: "https://www.nasa.gov/ames",
-                    image: "NASA_Ames_Research_Center.jpg",
+                    image: "Aerial_View_of_the_NASA_Ames_Research_Center.jpg",
                     description: "NASA research center located in Mountain View, California, with a variety of exhibits and tours available.",
                 },
                 {

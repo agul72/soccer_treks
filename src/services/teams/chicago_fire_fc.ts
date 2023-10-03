@@ -51,7 +51,7 @@ export const ChicagoFireFC: iTeam = {
                 {
                     name: "Millennium Park",
                     link: "https://www.millenniumpark.org/",
-                    image: "Millennium_Park.jpg",
+                    image: "Millennium_Square,_Chicago,_Illinois.jpg",
                     description: "Public park in downtown Chicago with iconic landmarks like Cloud Gate (aka The Bean) and Crown Fountain.",
                 },
                 {

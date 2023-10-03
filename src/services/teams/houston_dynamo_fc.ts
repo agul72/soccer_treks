@@ -36,19 +36,19 @@ export const HoustonDynamoFC: iTeam = {
                 {
                     name: "Space Center Houston",
                     link: "https://spacecenter.org/",
-                    image: "Space_Center_Houston.jpg",
+                    image: "Apollo_17_CM_Houston.jpg",
                     description: "World-renowned science center and museum dedicated to space exploration.",
                 },
                 {
                     name: "Houston Museum of Natural Science",
                     link: "https://www.hmns.org/",
-                    image: "Houston_Museum_of_Natural_Science.jpg",
+                    image: "HMNS.jpg",
                     description: "Natural history museum with a variety of exhibits on dinosaurs, space, and more.",
                 },
                 {
                     name: "Houston Zoo",
                     link: "https://www.houstonzoo.org/",
-                    image: "Houston_Zoo.jpg",
+                    image: "Houston_Zoo_Main_Entrance.jpg",
                     description: "Zoo with over 6,000 animals from all over the world.",
                 },
             ],

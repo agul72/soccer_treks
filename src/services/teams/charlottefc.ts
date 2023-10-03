@@ -36,13 +36,13 @@ export const CharlotteFC: iTeam = {
                 {
                     name: "U.S. National Whitewater Center",
                     link: "https://www.usnwc.org/",
-                    image: "U.S._National_Whitewater_Center.jpg",
+                    image: "US_National_Whitewater_Center.jpg",
                     description: "Outdoor adventure center with whitewater rafting, kayaking, rock climbing, and more.",
                 },
                 {
                     name: "NASCAR Hall of Fame",
                     link: "https://www.nascarhall.com/",
-                    image: "NASCAR_Hall_of_Fame.jpg",
+                    image: "NASCAR_HoF_from_CCC.jpg",
                     description: "Interactive museum dedicated to the history and heritage of NASCAR racing.",
                 },
             ],

@@ -36,19 +36,19 @@ export const VancouverWhitecapsFC: iTeam = {
                 {
                     name: "Stanley Park",
                     link: "https://vancouver.ca/parks-recreation-culture/stanley-park",
-                    image: "Stanley_Park.jpg",
+                    image: "Stanley_Park_Labeled_Aerial_Map.jpg",
                     description: "Urban park with over 1,000 acres of forest, beaches, and attractions.",
                 },
                 {
                     name: "Capilano Suspension Bridge Park",
                     link: "https://www.capilanosuspensionbridge.com/",
-                    image: "Capilano_Suspension_Bridge_Park.jpg",
+                    image: "Capilano_Suspension_Bridge,_Vancouver.jpg",
                     description: "Suspension bridge park with stunning views of the Capilano River and surrounding rainforest.",
                 },
                 {
                     name: "Vancouver Aquarium",
                     link: "https://www.vanaqua.org/",
-                    image: "Vancouver_Aquarium.jpg",
+                    image: "Vancouver_Aquarium_entrance.jpg",
                     description: "Public aquarium with over 70,000 animals from around the world.",
                 },
             ],

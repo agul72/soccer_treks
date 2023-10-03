@@ -36,19 +36,19 @@ export const TorontoFC: iTeam = {
                 {
                     name: "Hockey Hall of Fame",
                     link: "https://www.hhof.com/",
-                    image: "Hockey_Hall_of_Fame.jpg",
+                    image: "Hockey_Hall_of_Fame,_Toronto.jpg",
                     description: "Museum dedicated to the history and culture of ice hockey.",
                 },
                 {
                     name: "St. Lawrence Market",
                     link: "https://www.stlawrencemarket.com/",
-                    image: "St._Lawrence_Market.jpg",
+                    image: "St_Lawerence_South_Market_Exterior.jpg",
                     description: "Public market with over 120 vendors selling fresh produce, meats, cheeses, prepared foods, and more.",
                 },
                 {
                     name: "Toronto Islands",
                     link: "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-islands/",
-                    image: "Toronto_Islands.jpg",
+                    image: "Views_from_the_CN_Tower_Laslovarga.jpg",
                     description: "Group of islands in Lake Ontario just short ferry ride from downtown Toronto, with beaches, parks, and other attractions.",
                 },
             ],

@@ -36,13 +36,13 @@ export const ColumbusCrewSC: iTeam = {
         {
           name: "Franklin Park",
           link: "https://www.columbusparks.org/parks/franklin-park",
-          image: "Franklin_Park_Columbus.jpg",
+          image: "Fpsouth1.jpg",
           description: "Large public park with a variety of amenities, including a zoo, botanical garden, and golf course.",
         },
         {
           name: "Ohio State University",
           link: "https://www.osu.edu/",
-          image: "Ohio_State_University.jpg",
+          image: "OhioUnionFront.jpg",
           description: "Major public research university with a beautiful campus and a variety of attractions, including the Ohio Stadium and the Wexner Center for the Arts.",
         },
       ],

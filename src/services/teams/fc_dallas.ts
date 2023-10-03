@@ -36,19 +36,19 @@ export const Dallas_FC: iTeam = {
                 {
                     name: "Rocky Mountains National Park",
                     link: "https://www.nps.gov/romo/index.htm",
-                    image: "Rocky_Mountains_National_Park.jpg",
+                    image: "Rocky_Mountain_National_Park_in_September_2011_-_Glacier_Gorge_from_Bear_Lake.jpg",
                     description: "One of the most popular national parks in the United States, located just an hour's drive from Denver.",
                 },
                 {
                     name: "Red Rocks Park and Amphitheatre",
                     link: "https://www.redrocksonline.com/",
-                    image: "Red_Rocks_Park_and_Amphitheatre.jpg",
+                    image: "RedRocks.jpg",
                     description: "Iconic outdoor concert venue located in Morrison, Colorado, about 30 minutes from Denver.",
                 },
                 {
                     name: "Coors Brewery",
                     link: "https://www.coorsbrewery.com/",
-                    image: "Coors_Brewery.jpg",
+                    image: "Coors_logo.jpg",
                     description: "World-famous brewery located in Golden, Colorado, about 20 minutes from Denver.",
                 },
             ],

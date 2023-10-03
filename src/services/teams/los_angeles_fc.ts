@@ -36,19 +36,19 @@ export const LAFC: iTeam = {
                 {
                     name: "Universal Studios Hollywood",
                     link: "https://www.universalstudioshollywood.com/",
-                    image: "Universal_Studios_Hollywood.jpg",
+                    image: "Universal_archway.jpg",
                     description: "Theme park with movie-themed rides, attractions, and shows.",
                 },
                 {
                     name: "Getty Center",
                     link: "https://www.getty.edu/center/",
-                    image: "Getty_Center.jpg",
+                    image: "Aerial_Getty_Museum.jpg",
                     description: "Art museum with a collection of European paintings, drawings, sculpture, illuminated manuscripts, decorative arts, and photographs.",
                 },
                 {
                     name: "Natural History Museum of Los Angeles County",
                     link: "https://nhmlac.org/",
-                    image: "Natural_History_Museum_of_Los_Angeles_County.jpg",
+                    image: "NaturalHistoryMuseumOfLosAngelesCounty.jpg",
                     description: "Natural history museum with exhibits on dinosaurs, animals, plants, and more.",
                 },
             ],

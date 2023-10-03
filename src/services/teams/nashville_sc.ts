@@ -36,7 +36,7 @@ export const NashvilleSC: iTeam = {
                 {
                     name: "Country Music Hall of Fame and Museum",
                     link: "https://www.countrymusichalloffame.org/",
-                    image: "Country_Music_Hall_of_Fame_and_Museum.jpg",
+                    image: "Country_Music_Hall_of_Fame.jpg",
                     description: "Museum dedicated to the history and culture of country music.",
                 },
                 {
@@ -48,7 +48,7 @@ export const NashvilleSC: iTeam = {
                 {
                     name: "Broadway",
                     link: "https://www.visitnashville.com/things-to-do/neighborhoods/broadway/",
-                    image: "Broadway.jpg",
+                    image: "WTN_PeepHoles.jpg",
                     description: "Popular entertainment district in downtown Nashville, with a variety of bars, clubs, and restaurants.",
                 },
             ],

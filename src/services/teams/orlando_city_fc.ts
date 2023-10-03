@@ -36,7 +36,7 @@ export const OrlandoCityFC: iTeam = {
                 {
                     name: "Walt Disney World Resort",
                     link: "https://www.disneyworld.com/",
-                    image: "Walt_Disney_World_Resort.jpg",
+                    image: "Cinderella_Castle.jpg",
                     description: "World-famous theme park resort with four theme parks, two water parks, and dozens of hotels and restaurants.",
                 },
                 {
