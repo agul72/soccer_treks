@@ -40,7 +40,7 @@ export const NewEnglandRevolution: iTeam = {
                 {
                     name: "Freedom Trail",
                     link: "https://www.thefreedomtrail.org/",
-                    image: "File_USA-The_Freedom_Trail.jpg",
+                    image: "USA-The_Freedom_Trail.jpeg",
                     description: "Historic 2.5-mile path through Boston that passes by 16 sites significant to the American Revolution.",
                 },
                 {

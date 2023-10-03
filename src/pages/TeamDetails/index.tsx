@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Stadiums from "./Stadiums";
 import Airports from "./Airports";
 import Highlights from "./Highlights";

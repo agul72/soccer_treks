@@ -13,7 +13,8 @@ function Highlights({ highlights }: Props): JSX.Element {
             {highlights.map((highlight: iInterestHighlight, index: number) =>
                 <div key={index}>
                     <div className={s.place}>
-                        <div><img src={'/src/assets/images/places/' + highlight.image}
+                        <div className={s.plaseImageWrapper}>
+                            <img src={'/src/assets/images/places/' + highlight.image}
                             alt="Photo" className={s.image} />
                         </div>
                         <div>

@@ -55,12 +55,6 @@ export const NYCFC: iTeam = {
                     image: "Empire_State_Building.jpg",
                     description: "Iconic skyscraper in Midtown Manhattan that offers stunning views of the city.",
                 },
-                {
-                    name: "Statue of Liberty",
-                    link: "https://www.nps.gov/stli/index.htm",
-                    image: "Statue_of_Liberty.jpg",
-                    description: "Iconic landmark and symbol of freedom located in New York Harbor.",
-                },
             ],
         },
         desire: {

@@ -1,15 +1,8 @@
-.place {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-    // text-align: left;
-}
-
 .container {
     text-align: left;
     height: 80vh;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .actionWrapper {
@@ -28,19 +21,31 @@
 }
 
 .logoWrapper {
-    // width: 150px;
+    max-width: 250px;
     height: 150px;    
 }
 
 .image {
-    height: 100%;
-    object-fit: fill;
+    max-height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.place {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    
+    // text-align: left;
 }
 
 .plaseImageWrapper {
     height: 150px;
-    width: auto;
-    // overflow: hidden;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
 }
 
 .aidaItem {
