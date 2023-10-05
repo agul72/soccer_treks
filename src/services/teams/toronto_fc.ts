@@ -48,7 +48,7 @@ export const TorontoFC: iTeam = {
                 {
                     name: "Toronto Islands",
                     link: "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-islands/",
-                    image: "Views_from_the_CN_Tower_Laslovarga.jpg",
+                    image: "Toronto_Islands.jpg",
                     description: "Group of islands in Lake Ontario just short ferry ride from downtown Toronto, with beaches, parks, and other attractions.",
                 },
             ],
