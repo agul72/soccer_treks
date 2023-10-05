@@ -36,7 +36,7 @@ export const VancouverWhitecapsFC: iTeam = {
                 {
                     name: "Stanley Park",
                     link: "https://vancouver.ca/parks-recreation-culture/stanley-park",
-                    image: "Stanley_Park_Labeled_Aerial_Map.jpg",
+                    image: "Stanley_Park_Labeled_Aerial_Map.png",
                     description: "Urban park with over 1,000 acres of forest, beaches, and attractions.",
                 },
                 {

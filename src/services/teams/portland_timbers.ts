@@ -48,7 +48,7 @@ export const PortlandTimbers: iTeam = {
                 {
                     name: "Forest Park",
                     link: "https://www.portlandoregon.gov/parks/forest-park/",
-                    image: "Forest_park_wildwood_trail_in_early_summer_P.jpg",
+                    image: "Forest_park_wildwood_trail_in_early_summer_P.jpeg",
                     description: "5,200-acre urban forest with over 80 miles of hiking trails.",
                 },
             ],

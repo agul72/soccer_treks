@@ -25,7 +25,7 @@ export const CFMontréal: iTeam = {
                     name: "Olympic Stadium",
                     location: "Montreal, Quebec",
                     capacity: 61240,
-                    photo: "Olympic_Stadium.jpg",
+                    photo: "Olympic_Stadium.png",
                     highlights: [
                         "Iconic stadium built for the 1976 Summer Olympics",
                         "Home to the Montreal Expos (MLB) from 1969 to 1972",

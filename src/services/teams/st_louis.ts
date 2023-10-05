@@ -41,7 +41,7 @@ export const StLouisCitySC: iTeam = {
                 {
                     name: "City Museum",
                     link: "https://www.citymuseum.org/",
-                    image: "City_Museum_outdoor_structures.png",
+                    image: "City_Museum_outdoor_structures.jpg",
                     description: "Unique indoor/outdoor museum with exhibits and activities for all ages.",
                 },
             ],

@@ -42,7 +42,7 @@ export const PhiladelphiaUnion: iTeam = {
                 {
                     name: "Reading Terminal Market",
                     link: "https://www.readingterminalmarket.org/",
-                    image: "Reading_Terminal_Market.jpg",
+                    image: "Reading_Terminal_Market.png",
                     description: "Public market in Philadelphia with over 100 vendors selling fresh produce, meats, cheeses, prepared foods, and more.",
                 },
                 {

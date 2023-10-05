@@ -48,7 +48,7 @@ export const ColoradoRapids: iTeam = {
                 {
                     name: "Coors Brewery",
                     link: "https://www.coorsbrewery.com/",
-                    image: "Coors_logo.jpg",
+                    image: "Coors_logo.png",
                     description: "World-famous brewery located in Golden, Colorado, about 20 minutes from Denver.",
                 },
             ],

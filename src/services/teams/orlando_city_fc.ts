@@ -42,7 +42,7 @@ export const OrlandoCityFC: iTeam = {
                 {
                     name: "Universal Orlando Resort",
                     link: "https://www.universalorlando.com/",
-                    image: "Universal_Orlando_Resort.jpg",
+                    image: "Universal_Orlando_Resort.png",
                     description: "Theme park resort with two theme parks, a water park, and several hotels.",
                 },
                 {
