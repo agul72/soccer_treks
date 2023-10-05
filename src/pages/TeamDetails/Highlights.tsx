@@ -14,7 +14,7 @@ function Highlights({ highlights }: Props): JSX.Element {
                 <div key={index}>
                     <div className={s.place}>
                         <div className={s.plaseImageWrapper}>
-                            <img src={'/src/assets/images/places/' + highlight.image}
+                            <img src={'/assets/images/places/' + highlight.image}
                             alt="Photo" className={s.image} />
                         </div>
                         <div>

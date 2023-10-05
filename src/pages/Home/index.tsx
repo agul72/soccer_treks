@@ -99,7 +99,7 @@ function Home() {
                                     onClick={() => setSelectedTeam(team)}
                                 >
                                     <div>
-                                        <img src={'/src/assets/images/logos/' + team.logo}
+                                        <img src={'/assets/images/logos/' + team.logo}
                                             alt='logo' className={s.teamLogo} />
                                     </div>
                                     <div>{team.team}</div>

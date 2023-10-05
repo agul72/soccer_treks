@@ -12,7 +12,7 @@ function Team({ team }: Props): JSX.Element {
             <h1>{team.team}</h1>
             <div className={s.place}>
                 <div className={s.logoWrapper}>
-                    <img src={'/src/assets/images/logos/' + team.logo}
+                    <img src={'/assets/images/logos/' + team.logo}
                         alt='logo' className={s.image}/>
                 </div>
                 <div>
