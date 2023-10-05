@@ -5,7 +5,7 @@ export const TorontoFC: iTeam = {
     city: "Toronto, Ontario",
     conference: "Eastern",
     founded: 2006,
-    logo: "Toronto_FC_logo.png",
+    logo: "Toronto_FC_Logo.png",
     link: "https://www.torontofc.ca/",
     aida: {
         awareness: {
