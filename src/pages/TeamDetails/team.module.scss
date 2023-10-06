@@ -22,7 +22,7 @@
 
 .logoWrapper {
     max-width: 250px;
-    height: 150px;    
+    height: 150px;
 }
 
 .image {
@@ -37,7 +37,7 @@
     align-items: center;
     gap: 1rem;
     margin: 0.5rem 0;
-    
+
     // text-align: left;
 }
 
@@ -56,4 +56,10 @@
 
 .aidaTitle {
     margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        display: grid;
+    }
 }

@@ -14,7 +14,7 @@ export const OrlandoCityFC: iTeam = {
                 name: "Exploria Stadium",
                 location: "Orlando, Florida",
                 capacity: 25500,
-                photo: "250px-Orlando_City_Stadium.jpg",
+                photo: "Orlando_City_Stadium.jpg",
                 highlights: [
                     "State-of-the-art soccer-specific stadium in Downtown Orlando",
                     "Home to Orlando City SC and Orlando Pride",
