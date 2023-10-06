@@ -49,21 +49,6 @@ export const teams: iTeam[] = [
     VancouverWhitecapsFC,
     CFMontréal,
     CharlotteFC,
-    ChicagoFireFC,
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    ChicagoFireFC,    
 ];
 

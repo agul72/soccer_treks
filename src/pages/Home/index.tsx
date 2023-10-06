@@ -8,10 +8,43 @@ import TeamDetails from '../TeamDetails';
 function Home() {
 
     const [selectedTeams, setSelectedTeams] = useState<iTeam[]>(teams);
-    const [selectedTeam, setSelectedTeam] = useState<iTeam | null>(null);
+    const [selectedTeam, setSelectedTeam] = useState<iTeam>();
     const [selectedComference, setSelectedConference] = useState<string>("Eastern");
     const [filterCity, setFilterCity] = useState<string>("");
     const [filterTeam, setFilterTeam] = useState<string>("");
+    const [isTeamListVisible, setIsTeamListVisible] = useState<boolean>();
+    const [isTeamDetailsVisible, setIsTeamDetailsVisible] = useState<boolean>();
+
+    const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+
+        function handleResize() {
+            setInnerWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+
+    }, []);
+
+    useEffect(() => {
+        
+        if (innerWidth < 1100) {
+            if (selectedTeam) {
+                setIsTeamDetailsVisible(true);
+                setIsTeamListVisible(false);
+            } else {
+                setIsTeamDetailsVisible(false);
+                setIsTeamListVisible(true);
+            }
+            
+        } else {
+            setIsTeamListVisible(true);
+            setIsTeamDetailsVisible(true);
+        }
+
+    }, [innerWidth]);
 
     useEffect(() => {
         let result = teams;
@@ -35,24 +68,43 @@ function Home() {
             setSelectedTeams(result);
         }
 
+        setSelectedTeam(result?.[0]);
+
     }, [selectedComference, filterCity, filterTeam]);
 
     function onSelectConference(conference: string) {
         setSelectedConference(conference);
-        setSelectedTeam(null);
     }
 
+    function onTeamClickHandler(team: iTeam) {
+        setSelectedTeam(team);
+        if (innerWidth < 1100) {
+            setIsTeamDetailsVisible(true)
+            setIsTeamListVisible(false);
+        }            
+    }
+
+    function backToListBtnClickHandler() {
+        // if (window?.matchMedia("(max-width: 1100px)")) {
+        setIsTeamDetailsVisible(false);
+        setIsTeamListVisible(true);
+        // }
+    }
+
+    console.log(innerWidth, isTeamListVisible, isTeamDetailsVisible);
+    
+
     return (
-        <div className={s.mainWrapper}>
+        <div id={s.mainWrapper}>
             <div >
-                <div className={s.filters}>                    
-                    <div className={s.conferenceTabs}>
+                <div id={s.filters}>
+                    <div id={s.conferenceTabs}>
                         <div >
                             <button
-                                className={                                    [
-                                        s.conferenceBtn,
-                                        selectedComference === "Eastern" ? s.active : null
-                                    ].join(" ")}
+                                className={[
+                                    s.conferenceBtn,
+                                    selectedComference === "Eastern" ? s.active : null
+                                ].join(" ")}
                                 onClick={() => onSelectConference("Eastern")}>Eastern</button>
                         </div>
                         <div >
@@ -65,29 +117,32 @@ function Home() {
                                 onClick={() => onSelectConference("Western")}>Western</button>
                         </div>
                     </div>
-                    <div><h3>Filters:</h3></div>
-                    <div className={s.filter}>
-                        <div>City</div>
-                        <div>
-                            <input
-                                className={s.input}
-                                value={filterCity}
-                                onChange={(e) => setFilterCity(e.target.value)} />
+                    <div id={s.aditionalFilters}>
+                        <div><h3>Filters:</h3></div>
+                        <div className={s.filter}>
+                            <div>City</div>
+                            <div>
+                                <input
+                                    className={s.input}
+                                    value={filterCity}
+                                    onChange={(e) => setFilterCity(e.target.value)} />
+                            </div>
+                        </div>
+
+                        <div className={s.filter}>
+                            <div>Team</div>
+                            <div>
+                                <input
+                                    className={s.input}
+                                    value={filterTeam}
+                                    onChange={(e) => setFilterTeam(e.target.value)} />
+                            </div>
                         </div>
                     </div>
 
-                    <div className={s.filter}>
-                        <div>Team</div>
-                        <div>
-                            <input
-                                className={s.input}
-                                value={filterTeam}
-                                onChange={(e) => setFilterTeam(e.target.value)} />
-                        </div>
-                    </div>
                 </div>
-                <div className={s.mainContainer}>
-                    <div className={s.teamsWrapper}>
+                <div id={s.mainContainer}>
+                    {isTeamListVisible && <div id={s.teamsWrapper}>
                         {selectedTeams.map((team: iTeam) => {
                             return (
                                 <div
@@ -96,7 +151,7 @@ function Home() {
                                         selectedTeam === team ? s.active : null
                                     ].join(" ")}
                                     key={team.team}
-                                    onClick={() => setSelectedTeam(team)}
+                                    onClick={() => onTeamClickHandler(team)}
                                 >
                                     <div>
                                         <img src={'/assets/images/logos/' + team.logo}
@@ -108,18 +163,22 @@ function Home() {
                             )
                         })}
 
-                    </div>
+                    </div>}
 
-                    <div>
-                        <TeamDetails team={selectedTeam} />
-                    </div>
+                    {isTeamDetailsVisible && <div id={s.teamDetailsWrapper}>
+                        <div
+                            className={s.navBtn}
+                            onClick={backToListBtnClickHandler}
+                        >
+                            Back to list
+                        </div>
+                        <TeamDetails team={selectedTeam || undefined} />
+                    </div>}
                 </div>
 
             </div>
-            <div>
-                <div className={s.advertising}>
-                    Your banner may be here
-                </div>
+            <div id={s.advertising}>
+                Your banner may be here
             </div>
         </div>
     );

@@ -9,7 +9,7 @@ import s from "./team.module.scss";
 import Action from "./Action";
 
 interface Props {
-    team: iTeam | null
+    team: iTeam | undefined
 }
 
 
@@ -42,7 +42,7 @@ function TeamDetails({ team }: Props) {
     } else {
         return (
             <div className={s.container}>
-                <h2>Please select team to show details</h2>
+                <h2>There are not select team to show details</h2>
             </div>
         )
     }

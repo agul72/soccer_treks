@@ -1,4 +1,12 @@
-.filters {
+#mainWrapper {
+    display: grid;
+    grid-template-columns: 1fr clamp(100px, 15vw, 300px);
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#filters {
     padding: 1rem;
     display: flex;
     gap: 2rem;
@@ -8,16 +16,73 @@
     border-bottom: 3px var(--secondary-bg_color) double;
 }
 
-.filter {
+#conferenceTabs {
     display: flex;
-    gap: .5rem;
-    align-items: center;
+    // justify-content: flex-start;
+    gap: 1rem;
+    // padding: 1rem;
+    // width: 100vw;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
+
+.conferenceBtn {
+    background-color: darkseagreen;
+    color: white;
+
+    &.active {
+        background-color: darkgoldenrod;
+    }
+
+    &:hover {
+        background-color: lightgray;
+        color: darkblue;
+    }
+}
+
+#aditionalFilters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+    & .filter {
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+    }
+}
+
+
 
 .title {
     font-weight: bold;
     background-color: lightblue;
     padding: 0.5rem 0;
+}
+
+.input {
+    padding: 0.25rem 0.5rem;
+}
+
+#mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#advertising {
+    border-left: 2px solid var(--secondary-bg_color);
+    height: 100%;
+    padding: 0.5em 1em;
+    height: 90vh;
+    overflow: hidden;
+}
+
+#teamsWrapper {
+    height: 80vh;
+    overflow-y: auto;
 }
 
 .teamRow {
@@ -42,59 +107,50 @@
     object-fit: contain;
 }
 
-.input {
-    padding: 0.25rem 0.5rem;
-}
-
-.mainContainer {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 1rem;
-    margin: 1rem;
-
-}
-
-.mainWrapper {
-    display: grid;
-    grid-template-columns: 1fr clamp(100px, 15vw, 300px);
-    height: 90vh;
-    width: 100vw;
-    overflow: hidden;
-}
-
-.conferenceTabs {
-    display: flex;
-    // justify-content: flex-start;
-    gap: 1rem;
-    // padding: 1rem;
-    // width: 100vw;
+.navBtn {
+    background: none;
+    border: none;
+    outline: none;
+    color: green;
+    cursor: pointer;
     font-weight: bold;
-    font-size: 1.2rem;
+    display: none;
 }
 
-.conferenceBtn {
-    background-color: darkseagreen;
-    color: white;
+@media screen and (max-width: 1100px) {
+    #mainWrapper {
+        display: block;
+        height: auto;
+        min-width: 450px;
 
-    &.active {
-        background-color: darkgoldenrod;
+        overflow: visible;
     }
 
-    &:hover {
-        background-color: lightgray;
-        color: darkblue;
+    #advertising {
+        display: none;
     }
-}
 
-.advertising {
-    border-left: 2px solid var(--secondary-bg_color);
-    height: 100%;
-    padding: 0.5em 1em;
-    height: 90vh;
-    overflow: hidden;
-}
+    #filters {
+        flex-direction: column;
+        gap: 0.5rem;
+        height: auto;
+        border-bottom: 1px var(--secondary-bg_color) solid;
+        align-items: flex-start;
+    }
 
-.teamsWrapper {
-    height: 80vh;
-    overflow-y: auto;
+    #mainContainer {
+        grid-template-columns: auto;
+        gap: 0.5rem;
+        margin: 0.5rem;
+        min-width: 450px;
+
+    }
+
+    #aditionalFilters {
+        display: none;
+    }
+
+    .navBtn {
+        display: block;
+    }
 }
