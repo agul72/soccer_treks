@@ -29,16 +29,16 @@ function Home() {
     }, []);
 
     useEffect(() => {
-        
+
         if (innerWidth < 1100) {
-            if (selectedTeam) {
-                setIsTeamDetailsVisible(true);
-                setIsTeamListVisible(false);
-            } else {
-                setIsTeamDetailsVisible(false);
-                setIsTeamListVisible(true);
-            }
-            
+            // if (selectedTeam) {
+            //     setIsTeamDetailsVisible(true);
+            //     setIsTeamListVisible(false);
+            // } else {
+            setIsTeamDetailsVisible(false);
+            setIsTeamListVisible(true);
+            // }
+
         } else {
             setIsTeamListVisible(true);
             setIsTeamDetailsVisible(true);
@@ -81,7 +81,7 @@ function Home() {
         if (innerWidth < 1100) {
             setIsTeamDetailsVisible(true)
             setIsTeamListVisible(false);
-        }            
+        }
     }
 
     function backToListBtnClickHandler() {
@@ -92,7 +92,7 @@ function Home() {
     }
 
     console.log(innerWidth, isTeamListVisible, isTeamDetailsVisible);
-    
+
 
     return (
         <div id={s.mainWrapper}>
@@ -178,7 +178,7 @@ function Home() {
 
             </div>
             <div id={s.advertising}>
-                Your banner may be here
+                Your Ad lives HERE
             </div>
         </div>
     );

@@ -1,5 +1,7 @@
 import { iRoad } from "../../services/teams/iTeam";
 
+import s from "./team.module.scss";
+
 interface Props {
     roads: iRoad[],
 }
@@ -7,14 +9,14 @@ interface Props {
 function Roads({ roads }: Props): JSX.Element {
     return (
         <div>
-            <h3>How To Get To Stadium</h3>
+            <h3 className={s.aidaTitle}>How To Get To Stadium</h3>
 
             {roads.map((road: iRoad, index: number) =>
-                <div key={index}>
-                    <div><strong>Road: {road.route}</strong></div>
+                <div key={index} className={s.aidaItem}>
+                    <div className={s.aidaItem}><strong>Road: {road.route}</strong></div>
                     <div><strong>Ways: </strong></div>
                     {road.ways.map((way: string, index) =>
-                        <div key={index}>
+                        <div key={index} className={s.aidaItem}>
                             {way}
                         </div>
                     )}

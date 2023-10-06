@@ -18,7 +18,7 @@ function Stadiums({ stadiums }: Props): JSX.Element {
                                 <img src={'/assets/images/stadiums/' + stadium.photo}
                                     alt="Photo" className={s.image} />
                             </div>
-                            <div>
+                            <div className={s.aidaItem}>
                                 <div>Location: {stadium.location}</div>
                                 <div>Capacity: {stadium.capacity.toLocaleString()}</div>
                                 <div><h5>Highlights:</h5></div>
