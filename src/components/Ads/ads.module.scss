@@ -4,8 +4,11 @@
 }
 
 .text {
-  font-size: 0.8rem;
-  // hyphens:auto; 
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  color: var(--text_color);
+  hyphens: auto; 
   text-align:justify; 
 }
 

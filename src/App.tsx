@@ -1,7 +1,7 @@
 
 // import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Header from './components/header/Header';
+// import Header from './components/header/Header';
 
 import './index.scss';
 import './App.scss';
@@ -24,9 +24,9 @@ function App(): JSX.Element {
 
   return (
     <div id="main">
-      <Header changeTheme={changeThemeBtnClickHandler} />
+      {/* <Header changeTheme={changeThemeBtnClickHandler} /> */}
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home changeTheme={changeThemeBtnClickHandler} />} />
         <Route path='/about' element={<About />} />
       </Routes>
 
