@@ -11,7 +11,7 @@ function Header({ changeTheme }: Props): JSX.Element {
     return (
         <div className="headerContainer">
             <div className="title">
-                <div className="mainTitle">Soccertreks</div>
+                <div className="mainTitle">Soccer Treks</div>
             <div className="menu">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

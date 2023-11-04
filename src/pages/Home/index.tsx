@@ -3,7 +3,8 @@ import { iTeam } from '../../services/teams/iTeam';
 import { teams } from '../../services/teams';
 
 import s from './home.module.scss';
-import TeamDetails from '../TeamDetails';
+import TeamDetails from '../../components/TeamDetails';
+import Ads from '../../components/Ads';
 
 function Home() {
 
@@ -31,13 +32,8 @@ function Home() {
     useEffect(() => {
 
         if (innerWidth < 1100) {
-            // if (selectedTeam) {
-            //     setIsTeamDetailsVisible(true);
-            //     setIsTeamListVisible(false);
-            // } else {
             setIsTeamDetailsVisible(false);
             setIsTeamListVisible(true);
-            // }
 
         } else {
             setIsTeamListVisible(true);
@@ -178,7 +174,8 @@ function Home() {
 
             </div>
             <div id={s.advertising}>
-                Your Ad lives HERE
+                
+                <Ads />
             </div>
         </div>
     );
