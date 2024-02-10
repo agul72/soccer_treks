@@ -42,7 +42,9 @@ body {
 
 #layers {
   perspective: 1000px;
-  overflow: hidden;
+  overflow: hidden;  
+  color: whitesmoke;
+
 }
 
 #layers__container {
@@ -65,13 +67,13 @@ body {
 
 #layer-1 {
   background-image: url(../img/layer-1.jpg);
-  transform: translateZ(-50px) scale(1.05);
+  transform: translateZ(-50px) scale(1.10);
 
 }
 
 #layer-2 {
   background: url(../img/layer-2.png) no-repeat 95% 15%;
-  transform: translateZ(120px) scale(0.7);
+  transform: translateZ(10px) scale(0.7);
   background-size: 15%;
 }
 
@@ -85,15 +87,16 @@ body {
 
 #layer-5 {
   background: 
-  url(../img/stas-2.png) 12% 100%,
+  url(../img/stas-3.png) 12% 100%,
     url(../img/fun-4.png) 25% 100%, 
     url(../img/fun-5.png) 35% 100%, 
     url(../img/ira.png) 45% 100%,
-    url(../img/fun-6.png) 55% 100%,
-     
-    url(../img/karina-3.png) 75% 100%;
+    url(../img/fun-6.png) 53% 100%,
+    url(../img/alex.png) 65% 100%,     
+    url(../img/karina-3.png) 75% 100%,
+    url(../img/arsen.png) 85% 100%;
   transform: translateZ(350px) scale(0.8);
-  background-size: 15%, 10%, 10%, 8.5%, 11%, 15%;
+  background-size: 15%, 9%, 9%, 8%, 9%, 12%, 13%, 12%;
   background-repeat: no-repeat;
 }
 

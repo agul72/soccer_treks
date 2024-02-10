@@ -21,7 +21,7 @@ function Home(): JSX.Element {
         <div id="layer-2" className="layers__item"></div>
         <div id="layer-3" className="layers__item">
           <div id="hero-content">
-            <h1>Socces trecks</h1>
+            <h1>Soccer trecks</h1>
             <div id="hero-content__p">
               The best place for something...
             </div>
