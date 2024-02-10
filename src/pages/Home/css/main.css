@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+  --transition: 1s cubic-bezier(.05, .5, 0, 1);
+  /* --move-x: calc((clientX - window.innerWidth / 2) * -0.005)deg; */
+  /* --move-y: calc((clientY - window.innerHeight / 2) * -0.01)deg */
+}
+
+@font-face {
+  font-family: kamerik-3d;
+  src: url(fonts/kamerik205-heavy.woff2);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: merriweather-italic-3d;
+  src: url(fonts/merriweather-regular-italic.woff2);
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: KameriK-3d;
+}
+
+.logo {
+  --logo-sixe: calc(var(--index) * 8);
+  width: var(--logo-sixe);
+  height: var(--logo-sixe);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+#layers {
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+#layers__container {
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--move-y)) rotateY(var(--move-x));
+  will-change: transform;
+
+}
+
+.layers__item {
+  position: absolute;
+  inset: -5vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#layer-1 {
+  background-image: url(../img/layer-1.jpg);
+  transform: translateZ(-50px) scale(1.05);
+
+}
+
+#layer-2 {
+  background: url(../img/layer-2.png) no-repeat 85% 25%;
+  transform: translateZ(-10px) scale(0.9);
+  background-size: 15%;
+}
+
+#layer-3 {
+  transform: translateZ(180px) scale(0.8);
+}
+
+#layer-4 {
+  transform: translateZ(190px) scale(0.9);
+}
+
+#layer-5 {
+  background: url(../img/layer-5.png) bottom;
+  transform: translateZ(350px) scale(0.8);
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+#layer-6 {
+  background-image: url(../img/layer-6.png);
+  transform: translateZ(380px);
+}
+
+#hero-content {
+  font-size: calc(var(--index) * 2);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hero-content span {
+  display: block;
+}
+
+#hero-content__p {
+  text-transform: none;
+  font-family: merriweather-italic-3d;
+  font-size: calc(var(--index) * 1);
+  line-height: 3;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(var(--index) * .7);
+  border: 2px rgba(255, 255, 255, 0.5) solid;
+  background: transparent;
+  border-radius: 3rem;
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+#layer-4,
+#layer-5,
+#layer-6 {
+  pointer-events: none;
+}

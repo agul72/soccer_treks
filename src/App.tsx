@@ -8,6 +8,7 @@ import './App.scss';
 
 import { useTheme } from './hooks/useTheme';
 import Home from './pages/Home';
+import MLS from './pages/MLS';
 import About from './pages/About';
 
 function App(): JSX.Element {
@@ -26,7 +27,8 @@ function App(): JSX.Element {
     <div id="main">
       {/* <Header changeTheme={changeThemeBtnClickHandler} /> */}
       <Routes>
-        <Route path='/' element={<Home changeTheme={changeThemeBtnClickHandler} />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/mls' element={<MLS changeTheme={changeThemeBtnClickHandler} />} />
         <Route path='/about' element={<About />} />
       </Routes>
 
