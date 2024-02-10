@@ -85,11 +85,15 @@ body {
 
 #layer-5 {
   background: 
-    url(../img/fun-2.png) 15% 100%, 
-    url(../img/fun-3.png) 45% 100%,
-    url(../img/fun-2.png) 75% 100%;
+  url(../img/stas-2.png) 12% 100%,
+    url(../img/fun-4.png) 25% 100%, 
+    url(../img/fun-5.png) 35% 100%, 
+    url(../img/ira.png) 45% 100%,
+    url(../img/fun-6.png) 55% 100%,
+     
+    url(../img/karina-3.png) 75% 100%;
   transform: translateZ(350px) scale(0.8);
-  background-size: 15%;
+  background-size: 15%, 10%, 10%, 8.5%, 11%, 15%;
   background-repeat: no-repeat;
 }
 
