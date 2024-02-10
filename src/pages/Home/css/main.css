@@ -70,8 +70,8 @@ body {
 }
 
 #layer-2 {
-  background: url(../img/layer-2.png) no-repeat 85% 25%;
-  transform: translateZ(-10px) scale(0.9);
+  background: url(../img/layer-2.png) no-repeat 95% 15%;
+  transform: translateZ(120px) scale(0.7);
   background-size: 15%;
 }
 
@@ -84,7 +84,10 @@ body {
 }
 
 #layer-5 {
-  background: url(../img/layer-5.png) bottom;
+  background: 
+    url(../img/fun-2.png) 15% 100%, 
+    url(../img/fun-3.png) 45% 100%,
+    url(../img/fun-2.png) 75% 100%;
   transform: translateZ(350px) scale(0.8);
   background-size: 15%;
   background-repeat: no-repeat;
