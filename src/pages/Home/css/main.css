@@ -66,8 +66,9 @@ body {
 }
 
 #layer-1 {
-  background-image: url(../img/soccer-field-4.jpg);
+  /* background-image: url(../img/soccer-field-5.jpg); */
   transform: translateZ(-50px) scale(1.10);
+  transition: background-image 3s;
 
 }
 
