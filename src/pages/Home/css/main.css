@@ -43,12 +43,12 @@ body {
 #layers {
   perspective: 1000px;
   overflow: hidden;
-  color: whitesmoke;
+  color: wheat;
 
 }
 
 #layers__container {
-  height: 100vh;
+  height: 100dvh;
   transform-style: preserve-3d;
   transform: rotateX(var(--move-y)) rotateY(var(--move-x));
   will-change: transform;
@@ -66,15 +66,17 @@ body {
 }
 
 #layer-1 {
-  background-image: url(../img/layer-1.jpg);
+  background-image: url(../img/soccer-field-4.jpg);
   transform: translateZ(-50px) scale(1.10);
 
 }
 
 #layer-2 {
-  background: url(../img/layer-2.png) no-repeat 95% 15%;
-  transform: translateZ(10px) scale(0.7);
-  background-size: 15%;
+  background: 
+  url(../img/layer-2.png) no-repeat 80% 90%,
+  url(../img/layer-2.png) no-repeat 20% 90%;
+  transform: translateZ(140px) ;
+  background-size: 8%;
 }
 
 #layer-3 {
@@ -109,6 +111,10 @@ body {
   font-size: calc(var(--index) * 2);
   text-align: center;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-content span {
@@ -130,9 +136,11 @@ body {
   border: 2px rgba(255, 255, 255, 0.5) solid;
   background: transparent;
   border-radius: 3rem;
-  color: white;
+  color: wheat;
   padding: 1rem 2rem;
   cursor: pointer;
+  display: block;
+  width: 15rem;
 }
 
 #layer-4,
