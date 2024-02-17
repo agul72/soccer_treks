@@ -4,7 +4,7 @@ import { teams } from '../../services/teams';
 
 import s from './mls.module.scss';
 import TeamDetails from '../../components/TeamDetails';
-import Ads from '../../components/Ads';
+// import Ads from '../../components/Ads';
 
 interface Props {
   changeTheme: () => void,
