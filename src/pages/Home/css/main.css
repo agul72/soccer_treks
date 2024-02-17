@@ -11,7 +11,7 @@
   /* --move-y: calc((clientY - window.innerHeight / 2) * -0.01)deg */
 }
 
-@font-face {
+/* @font-face {
   font-family: kamerik-3d;
   src: url(fonts/kamerik205-heavy.woff2);
   font-weight: 900;
@@ -20,12 +20,12 @@
 @font-face {
   font-family: merriweather-italic-3d;
   src: url(fonts/merriweather-regular-italic.woff2);
-}
+} */
 
 body {
   background-color: black;
   color: white;
-  font-family: KameriK-3d;
+  
 }
 
 .logo {
@@ -51,7 +51,7 @@ body {
   height: 100dvh;
   transform-style: preserve-3d;
   transform: rotateX(var(--move-y)) rotateY(var(--move-x));
-  will-change: transform;
+  will-change: background-image;
 
 }
 
@@ -66,6 +66,7 @@ body {
 }
 
 #layer-1 {
+  will-change: transition;
   /* background-image: url(../img/soccer-field-5.jpg); */
   transform: translateZ(-50px) scale(1.10);
   transition: background-image 3s;
@@ -82,6 +83,7 @@ body {
 
 #layer-3 {
   transform: translateZ(180px) scale(0.8);
+  
 }
 
 #layer-4 {
@@ -109,13 +111,20 @@ body {
 }
 
 #hero-content {
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 3);
   text-align: center;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  background-color: rgba(10, 53, 33, 0.4);
+  padding: .8rem 2rem;
+  border-radius: 5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+
 }
 
 #hero-content span {
@@ -124,8 +133,9 @@ body {
 
 #hero-content__p {
   text-transform: none;
-  font-family: merriweather-italic-3d;
-  font-size: calc(var(--index) * 1);
+  font-family: "Dancing Script", sans-serif;
+  font-style: italic;
+  font-size: calc(var(--index) * 1.5);
   line-height: 3;
 }
 

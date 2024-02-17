@@ -6,24 +6,25 @@ import img2 from './img/soccer-field-2.jpg';
 import img3 from './img/soccer-field-3.jpg';
 import img4 from './img/soccer-field-4.jpg';
 import img5 from './img/soccer-field-5.jpg';
-import img6 from './img/soccer-field-6.jpg';
+// import img6 from './img/soccer-field-6.jpg';
 
 import './css/main.css'
 
 function Home(): JSX.Element {
 
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5];
   let intervalId: ReturnType<typeof setInterval>;
 
   const [img, setImg] = useState(images[0])
 
   useEffect(() => {
-    let i = 0;
+    let i = 1;
     
     intervalId = setInterval(() => {
-      i = (i + 1) % 6;
+      i = (i + 1) % images.length;
       setImg(images[i]);
-    }, 10000);
+      // setImg(`./img/soccer-field-${i + 1}.jpg`);
+    }, 60000);
 
     return () => {
       clearInterval(intervalId);
@@ -48,9 +49,9 @@ function Home(): JSX.Element {
         <div id="layer-2" className="layers__item"></div>
         <div id="layer-3" className="layers__item">
           <div id="hero-content">
-            <h1>Soccer treks</h1>
+            <div>Soccer treks</div>
             <div id="hero-content__p">
-              The best place for something...
+            Your go-to for soccer stadiums in the US and beyond
             </div>
             <Link to="/mls" className="button start">MLS</Link>
           </div>
