@@ -25,7 +25,7 @@
 body {
   background-color: black;
   color: white;
-  
+
 }
 
 .logo {
@@ -74,16 +74,16 @@ body {
 }
 
 #layer-2 {
-  background: 
-  url(../img/layer-2.png) no-repeat 80% 90%,
-  url(../img/layer-2.png) no-repeat 20% 90%;
-  transform: translateZ(140px) ;
+  background:
+    url(../img/layer-2.png) no-repeat 80% 90%,
+    url(../img/layer-2.png) no-repeat 20% 90%;
+  transform: translateZ(140px);
   background-size: 8%;
 }
 
 #layer-3 {
   transform: translateZ(180px) scale(0.8);
-  
+
 }
 
 #layer-4 {
@@ -118,13 +118,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
   background-color: rgba(10, 53, 33, 0.4);
-  padding: .8rem 2rem;
+  padding: 2rem;
   border-radius: 5rem;
   font-family: "Archivo Black", sans-serif;
-  font-weight: bold;
-
+  /* font-weight: 500; */
+  line-height: 1;
 }
 
 #hero-content span {

@@ -180,10 +180,10 @@ function MLS({ changeTheme }: Props): JSX.Element {
         </div>
 
       </div>
-      <div id={s.advertising}>
+      {/* <div id={s.advertising}>
 
         <Ads />
-      </div>
+      </div> */}
     </div>
   );
 };

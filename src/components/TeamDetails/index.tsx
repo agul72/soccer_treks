@@ -1,12 +1,12 @@
 import Stadiums from "./Stadiums";
 import Airports from "./Airports";
 import Highlights from "./Highlights";
+import Action from "./Action";
 import Team from "./Team";
 import { iTeam } from "../../services/teams/iTeam";
 import Roads from "./Roads";
 
 import s from "./team.module.scss";
-import Action from "./Action";
 
 interface Props {
     team: iTeam | undefined
@@ -14,8 +14,6 @@ interface Props {
 
 
 function TeamDetails({ team }: Props) {
-
-
 
     if (team) {
         const { awareness, interest, desire, action } = team.aida;
@@ -34,8 +32,11 @@ function TeamDetails({ team }: Props) {
                 <div className={s.aidaItem}>
                     <Roads roads={desire.howToGetToStadium} />
                 </div>
-                <div className={s.aidaItem}>
+                {/* <div className={s.aidaItem}>
                     <Action action={action} />
+                </div> */}
+                <div>
+                  <Action action={action} />
                 </div>
             </div>
         );
