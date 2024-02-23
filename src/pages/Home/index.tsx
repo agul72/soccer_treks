@@ -19,7 +19,7 @@ function Home(): JSX.Element {
 
   useEffect(() => {
     let i = 1;
-    
+
     intervalId = setInterval(() => {
       i = (i + 1) % images.length;
       setImg(images[i]);
@@ -39,19 +39,40 @@ function Home(): JSX.Element {
 --move-y: ${(e.clientY - window.innerHeight / 2) * -0.01}deg`
       });
     });
+    document.addEventListener("deviceorientation", handleOrientation, true);
   }, []);
+
+  const [absolute, setAbsolute] = useState(0);
+  const [alpha, setAlpha] = useState(0);
+  const [beta, setBeta] = useState(0);
+  const [gamma, setGamma] = useState(0);
+
+  function handleOrientation(event: any) {
+    setAbsolute(event.absolute);
+    setAlpha(event.alpha);
+    setBeta(event.beta);
+    setGamma(event.gamma);
+
+    // Do stuff with the new orientation data
+  }
 
   return (
     <section id="layers" >
       <div id="layers__container">
+        <div id="motion">
+          <div>Absolute: {absolute}</div>
+          <div>Alpha: {alpha}</div>
+          <div>Beta: {beta}</div>
+          <div>Gamma: {gamma}</div>
+        </div>
         <div id="layer-1" className="layers__item"
-          style={{ backgroundImage: `url(${img})`, }}></div>
+          style={{ backgroundImage: `url(${img})`, }}>d</div>
         <div id="layer-2" className="layers__item"></div>
         <div id="layer-3" className="layers__item">
           <div id="hero-content">
             <div>Soccer treks</div>
             <div id="hero-content__p">
-            Your go-to for soccer stadiums in the US and beyond
+              Your go-to for soccer stadiums in the US and beyond
             </div>
             <Link to="/mls" className="button start">MLS</Link>
           </div>

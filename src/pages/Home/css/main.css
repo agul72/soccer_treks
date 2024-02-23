@@ -158,3 +158,11 @@ body {
 #layer-6 {
   pointer-events: none;
 }
+
+#motion {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  color: black;
+}

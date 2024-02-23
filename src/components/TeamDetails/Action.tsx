@@ -9,7 +9,7 @@ interface Props {
 function Action({ action }: Props): JSX.Element {
     return (
         <div className={s.actionWrapper}>
-            <h2>Action</h2>
+            {/* <h2>Action</h2> */}
             <div>{action.narrative}</div>
             <div className={s.actionContainer}>
                 <a href={action.scheduleLink} target="_blank">
