@@ -6,8 +6,8 @@
 }
 
 .actionWrapper {
-  position: fixed;
-  top: 11%;
+  position: absolute;
+  bottom: 1%;
   right: 3%;
   background-color: var(--action-bg_color);
   opacity: .7;
@@ -24,6 +24,11 @@
   &:hover {
     opacity: 1
   };
+
+  @media screen and (max-width: 768px) {
+    left: 3%;
+    font-size: 0.8rem;
+  }
 }
 
 .actionContainer {

@@ -11,17 +11,6 @@
   /* --move-y: calc((clientY - window.innerHeight / 2) * -0.01)deg */
 }
 
-/* @font-face {
-  font-family: kamerik-3d;
-  src: url(fonts/kamerik205-heavy.woff2);
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: merriweather-italic-3d;
-  src: url(fonts/merriweather-regular-italic.woff2);
-} */
-
 body {
   background-color: black;
   color: white;
@@ -73,6 +62,12 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+  #layer-2,  #layer-5 {
+    display: none;
+  }
+}
+
 #layer-2 {
   background:
     url(../img/layer-2.png) no-repeat 80% 90%,
@@ -84,30 +79,26 @@ body {
 #layer-3 {
   transform: translateZ(180px) scale(0.8);
 
-}
+  @media screen and (max-width: 768px) {
+    transform: none;
+  }
 
-#layer-4 {
-  transform: translateZ(190px) scale(0.9);
 }
 
 #layer-5 {
   background:
-    url(../img/arsen-2.png) 10% 100%,
-    url(../img/alex-2.png) 25% 100%,
-    url(../img/fun-5.png) 37% 100%,
-    url(../img/stas-4.png) 50% 100%,
-    url(../img/ira.png) 63% 100%,
-    url(../img/karina-3.png) 75% 100%,
-    url(../img/fun-6.png) 85% 100%,
-    url(../img/fun-4.png) 58% 100%;
+    url(../img/arsen-3.png) 10% 95%,
+    url(../img/alex-2.png) 25% 95%,
+    url(../img/stas-4.png) 50% 95%,
+    url(../img/karina-3.png) 37% 95%,
+    url(../img/fun-5.png) 63% 95%,
+    url(../img/ira.png) 44% 95%,
+    url(../img/fun-6.png) 85% 95%,
+    url(../img/fun-4.png) 58% 95%;
   transform: translateZ(350px) scale(0.8);
-  background-size: 15%, 14%, 11%, 18%, 9%, 14%, 10.5%, 10.5%;
+  background-size: 15%, 13.5%, 17%, 13%, 10%, 7.5%, 9%, 10.5%;
   background-repeat: no-repeat;
-}
-
-#layer-6 {
-  background-image: url(../img/layer-6.png);
-  transform: translateZ(380px);
+  /* background-position: top; */
 }
 
 #hero-content {
@@ -124,6 +115,12 @@ body {
   font-family: "Archivo Black", sans-serif;
   /* font-weight: 500; */
   line-height: 1;
+
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
 }
 
 #hero-content span {
@@ -142,7 +139,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: calc(var(--index) * .7);
+  font-size: calc(var(--index) * 1.5);
   border: 2px rgba(255, 255, 255, 0.5) solid;
   background: transparent;
   border-radius: 3rem;
@@ -153,9 +150,7 @@ body {
   width: 15rem;
 }
 
-#layer-4,
-#layer-5,
-#layer-6 {
+#layer-5 {
   pointer-events: none;
 }
 

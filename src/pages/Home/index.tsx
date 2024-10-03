@@ -8,7 +8,7 @@ import img4 from './img/soccer-field-4.jpg';
 import img5 from './img/soccer-field-5.jpg';
 // import img6 from './img/soccer-field-6.jpg';
 
-import './css/main.css'
+import './css/main.scss'
 
 function Home(): JSX.Element {
 
@@ -32,6 +32,8 @@ function Home(): JSX.Element {
   }, []);
 
   useEffect(() => {
+    console.log("useEffect");
+    
     document.addEventListener('mousemove', e => {
       Object.assign(document.documentElement, {
         style: `
@@ -39,32 +41,11 @@ function Home(): JSX.Element {
 --move-y: ${(e.clientY - window.innerHeight / 2) * -0.01}deg`
       });
     });
-    document.addEventListener("deviceorientation", handleOrientation, true);
   }, []);
-
-  const [absolute, setAbsolute] = useState(0);
-  const [alpha, setAlpha] = useState(0);
-  const [beta, setBeta] = useState(0);
-  const [gamma, setGamma] = useState(0);
-
-  function handleOrientation(event: any) {
-    setAbsolute(event.absolute);
-    setAlpha(event.alpha);
-    setBeta(event.beta);
-    setGamma(event.gamma);
-
-    // Do stuff with the new orientation data
-  }
 
   return (
     <section id="layers" >
       <div id="layers__container">
-        <div id="motion">
-          <div>Absolute: {absolute}</div>
-          <div>Alpha: {alpha}</div>
-          <div>Beta: {beta}</div>
-          <div>Gamma: {gamma}</div>
-        </div>
         <div id="layer-1" className="layers__item"
           style={{ backgroundImage: `url(${img})`, }}>d</div>
         <div id="layer-2" className="layers__item"></div>
@@ -77,11 +58,7 @@ function Home(): JSX.Element {
             <Link to="/mls" className="button start">MLS</Link>
           </div>
         </div>
-        <div id="layer-4" className="layers__item">
-          <canvas id="rain"></canvas>
-        </div>
         <div id="layer-5" className="layers__item" ></div>
-        <div id="layer-6" className="layers__item" ></div>
       </div>
     </section>
   )
