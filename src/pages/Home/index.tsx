@@ -23,7 +23,6 @@ function Home(): JSX.Element {
     intervalId = setInterval(() => {
       i = (i + 1) % images.length;
       setImg(images[i]);
-      // setImg(`./img/soccer-field-${i + 1}.jpg`);
     }, 60000);
 
     return () => {
@@ -31,16 +30,21 @@ function Home(): JSX.Element {
     }
   }, []);
 
-  useEffect(() => {
-    console.log("useEffect");
+  function onMouseMoveHandler(e: MouseEvent) {
     
-    document.addEventListener('mousemove', e => {
-      Object.assign(document.documentElement, {
-        style: `
+    Object.assign(document.documentElement, {
+      style: `
 --move-x: ${(e.clientX - window.innerWidth / 2) * -0.005}deg;
 --move-y: ${(e.clientY - window.innerHeight / 2) * -0.01}deg`
-      });
     });
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousemove', onMouseMoveHandler);
+
+    return () => {
+      document.removeEventListener('mousemove',onMouseMoveHandler); 
+    }
   }, []);
 
   return (

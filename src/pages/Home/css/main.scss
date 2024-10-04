@@ -7,8 +7,6 @@
 :root {
   --index: calc(1vw + 1vh);
   --transition: 1s cubic-bezier(.05, .5, 0, 1);
-  /* --move-x: calc((clientX - window.innerWidth / 2) * -0.005)deg; */
-  /* --move-y: calc((clientY - window.innerHeight / 2) * -0.01)deg */
 }
 
 body {
