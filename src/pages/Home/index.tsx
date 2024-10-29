@@ -6,13 +6,15 @@ import img2 from './img/soccer-field-2.jpg';
 import img3 from './img/soccer-field-3.jpg';
 import img4 from './img/soccer-field-4.jpg';
 import img5 from './img/soccer-field-5.jpg';
+import img6 from './img/soccer-field-7.jpeg';
+import img7 from './img/soccer-field-91.jpg';
 // import img6 from './img/soccer-field-6.jpg';
 
 import './css/main.scss'
 
 function Home(): JSX.Element {
 
-  const images = [img1, img2, img3, img4, img5];
+  const images = [img1, img2, img3, img4, img5, img6, img7];
   let intervalId: ReturnType<typeof setInterval>;
 
   const [img, setImg] = useState(images[0])
@@ -23,7 +25,7 @@ function Home(): JSX.Element {
     intervalId = setInterval(() => {
       i = (i + 1) % images.length;
       setImg(images[i]);
-    }, 60000);
+    }, 10000);
 
     return () => {
       clearInterval(intervalId);
@@ -52,7 +54,7 @@ function Home(): JSX.Element {
       <div id="layers__container">
         <div id="layer-1" className="layers__item"
           style={{ backgroundImage: `url(${img})`, }}>d</div>
-        <div id="layer-2" className="layers__item"></div>
+        {/* <div id="layer-2" className="layers__item"></div> */}
         <div id="layer-3" className="layers__item">
           <div id="hero-content">
             <div>Soccer treks</div>
