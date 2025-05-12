@@ -19,7 +19,11 @@ function Team({ team }: Props): JSX.Element {
                     <div>City: {team.city}</div>
                     <div>Conference: {team.conference}</div>
                     <div>Founded: {team.founded}</div>
-                    <div><a href={team.link} target="_blank">Go to team's site</a></div>
+                    <div>
+                      <a href={team.link} target="_blank">
+                        Go to team's site
+                      </a>
+                    </div>
                 </div>
             </div>
         </div>)

@@ -33,7 +33,7 @@ function Home(): JSX.Element {
   }, []);
 
   function onMouseMoveHandler(e: MouseEvent) {
-    
+
     Object.assign(document.documentElement, {
       style: `
 --move-x: ${(e.clientX - window.innerWidth / 2) * -0.005}deg;
@@ -41,11 +41,22 @@ function Home(): JSX.Element {
     });
   }
 
+  function updateDeviceOrientation(event: DeviceOrientationEvent) {
+    // if (event.alpha !== null && event.beta !== null && event.gamma !== null) {
+      Object.assign(document.documentElement.style, {
+        '--move-x': `${((event.gamma ?? 0) - window.innerWidth / 2) * -0.005}deg`, // Adjust multiplier as needed
+        '--move-y': `${((event.beta ?? 0) - window.innerHeight / 2) * -0.01}deg`, // Adjust multiplier as needed
+      });
+    // }
+  }
+
   useEffect(() => {
     document.addEventListener('mousemove', onMouseMoveHandler);
+    window.addEventListener('deviceorientation', updateDeviceOrientation);
 
     return () => {
-      document.removeEventListener('mousemove',onMouseMoveHandler); 
+      document.removeEventListener('mousemove', onMouseMoveHandler);
+      window.removeEventListener('deviceorientation', updateDeviceOrientation);
     }
   }, []);
 
@@ -57,7 +68,7 @@ function Home(): JSX.Element {
         {/* <div id="layer-2" className="layers__item"></div> */}
         <div id="layer-3" className="layers__item">
           <div id="hero-content">
-            <div>Soccer treks</div>
+            <div>Fan Embassy</div>
             <div id="hero-content__p">
               Your go-to for soccer stadiums in the US and beyond
             </div>
